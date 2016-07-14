@@ -5,6 +5,9 @@ spielervalue <- function(n) {
     dfspieli <- data.frame(name = spiels %>%
                              html_nodes(".spielprofil_tooltip") %>%
                              html_text(),
+                           position = spiels %>%
+                             html_nodes(xpath = "//*[@class='inline-table']//tr[2]/td") %>%
+                             html_text(),
                            club = spiels %>%
                              html_nodes(xpath = "//*[@id='yw1']/table/tbody//td[5]/a/img") %>%
                              html_attr("alt"),
@@ -27,3 +30,4 @@ spielervalue <- function(n) {
 top_250_23to30 <- spielervalue("23-30")
 top_250_u23 <- spielervalue("u23")
 top_250_o30 <- spielervalue("o30")
+
