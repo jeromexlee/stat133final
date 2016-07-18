@@ -1,3 +1,6 @@
+library(tidyr)
+library(dplyr)
+library(ggplot2)
 spielervalue <- function(n) {
   for (i in 1:10) {
     spiels <- str_c("http://www.transfermarkt.com/spieler-statistik/wertvollstespieler/marktwertetop/plus/ausrichtung/alle/spielerposition_id/alle/altersklasse/", n, "/land_id/0/yt0/Show/0//page/", i) %>%
@@ -31,3 +34,8 @@ top_250_23to30 <- spielervalue("23-30")
 top_250_u23 <- spielervalue("u23")
 top_250_o30 <- spielervalue("o30")
 
+df = top_250_u23 %>% 
+  rbind(top_250_23to30) %>% 
+  rbind(top_250_o30)
+
+ggplot(df,aes(x=age,y=valuemil)) + geom_point() 
