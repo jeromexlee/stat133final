@@ -35,7 +35,7 @@ types = c("A","SF","MVSF","2B","3B","4B","BT","MT",'TT','RMP','RAH','RZSF','PRR'
 names(types) = c("All Homes",'Single Family Residences','Price per Square Foot','2 Bedroom','3 Bedroom','4 Bedroom','Bottom Tier','Middle Tier','Top Tier','Median Rent, Homes Listed for Rent','Estimated Rent, All Homes in Region','Estimated Rent per Square Foot','Price-to-Rent Ratio',"Median List Price",'Median Sale Price',"Median List Price per Square Foot",'Median Salse Price per Square Foot',"Listings with Price Cut in Last 30 Days",'Median Price Cut',"Ratio of Sale Price to List Price ",'Sold for Loss','Sold for Gain','Increasing Values',"Decreasing Values","Turnover in Housing Market, Past 1 Year", "Number of Homes for Rent","Monthly Foreclosures per 10,00 Homes","Percentage of Sales that were Foreclosures")
 url = "https://www.quandl.com/blog/api-for-housing-data"
 
-#Importing data
+#Importing hoursing data
 #variables: 
 #       CA_pricing: dataframe, storing the price for California by different types
 #       City_pricing: dataframe, storing the price for each city of California by different tpyes
@@ -69,3 +69,9 @@ City_pricing = unique(City_pricing)
 write.csv(City_pricing,"pricing_by_city.csv")
 write.csv(CA_pricing,"pricing_by_state.csv")
 length(unique(City_pricing$City))
+
+#Importing the population data
+#variables:
+#  
+#
+
