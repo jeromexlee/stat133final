@@ -10,22 +10,21 @@ library(plyr)
 library(ggplot2)
 library(rvest)
 
-city_code = read_csv("datas/city_codes.csv")
+city_code = read_csv("lookup_codes/city_codes.csv")
 city_code = mutate(city_code,code = str_extract(city_code[[4]],"[0-9].*"))
 city_code = city_code %>% 
   filter(State == "CA")
 city_code = mutate(city_code,County = str_extract(city_code[[4]],"[a-zA-Z ]*"))
-primary = c("Alameda","Contra Costa","San Mateo","Marin","Napa","Sacramento","Santa_Clara")
+primary = c("Alameda","Contra Costa","San Mateo","Marin","Napa","Sacramento","Santa_Clara","San Francisco")
 city_code = filter(city_code,County %in% primary)
 city_code = filter(city_code,!Region %in% c("San Pablo",'North Highlands','North Fair Oaks','Discovery Bay','Rodeo','Saint Helena','Fairfax'))
-city_code = city_code[]
 # county_code = read_csv("datas/county_codes.csv",col_names=F)
 # county_code = mutate(county_code,code = str_extract(county_code[[3]],"[0-9].*"))
 
 # nei_code = read_csv("datas/hood_codes.csv")
 # nei_code = mutate(nei_code,code = str_extract(nei_code[[5]],"[0-9].*"))
 
-state_code = read_csv("datas/state_codes.csv")
+state_code = read_csv("lookup_codes/state_codes.csv")
 names(state_code) = c("state")
 state_code = mutate(state_code,code = str_extract(state,"[0-9].*"))
 state_code = mutate(state_code,state = str_extract(state,"[a-zA-Z ]*"))
@@ -65,13 +64,40 @@ for(i in 1:length(city_code$code)){
   n = i/length(city_code$code)
   print(n)
 }
+
+
+for(j in types){
+  scheme = str_c("ZILL/C00010","_",j)
+  #print(scheme)
+  temp=NULL
+  tryCatch({temp = Quandl(scheme)},
+           finally = {
+             if (!is.null(temp)){
+               temp = mutate(temp,City=city_code$Region[1],County = city_code$County[1], Metro = city_code$Metro[1], Type = j)
+             }
+             City_pricing = rbind(City_pricing,temp)
+           })
+}
+
 City_pricing = unique(City_pricing)
-write.csv(City_pricing,"pricing_by_city.csv")
-write.csv(CA_pricing,"pricing_by_state.csv")
+write.csv(City_pricing,"datas/pricing_by_city.csv")
+write.csv(CA_pricing,"datas/pricing_by_state.csv")
 length(unique(City_pricing$City))
 
 #Importing the population data
 #variables:
 #  
 #
+FRED_code = read_csv("lookup_codes/FRED-datasets-codes.csv")
+FRED_code = filter(FRED_code,str_match(FRED_code,"(, CA)"))
+scheme = str_detect(FRED_code[[2]],"(, CA)")
+FRED_code1 = data_frame(code = FRED_code[[1]][scheme],define = FRED_code[[2]][scheme])
+scheme = list()
+for (i in 1:length(primary)){
+  p = str_c('(',primary[i],')')
+  print(p)
+  scheme[[i]]= str_detect(FRED_code1[[2]],p)
+}
+scheme = Reduce("|",scheme)
+FRED_code2 = data_frame(code = FRED_code1[[1]][scheme],define = FRED_code1[[2]][scheme])
 
