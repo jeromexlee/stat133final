@@ -67,4 +67,5 @@ for(i in 1:length(city_code$code)){
 }
 City_pricing = unique(City_pricing)
 write.csv(City_pricing,"pricing_by_city.csv")
+write.csv(CA_pricing,"pricing_by_state.csv")
 length(unique(City_pricing$City))
