@@ -84,6 +84,11 @@ write.csv(City_pricing,"datas/pricing_by_city.csv")
 write.csv(CA_pricing,"datas/pricing_by_state.csv")
 length(unique(City_pricing$City))
 
+
+City_pricing = read_csv("datas/pricing_by_city.csv") %>% 
+  .[-c(1)]
+CA_pricing = read_csv("datas/pricing_by_state.csv") %>% 
+  .[-c(1)]
 #Importing the population data
 #variables:
 #  
