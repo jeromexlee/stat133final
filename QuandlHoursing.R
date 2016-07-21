@@ -93,6 +93,7 @@ CA_pricing = read_csv("datas/pricing_by_state.csv") %>%
 #variables:
 #  
 #
+
 FRED_code = read_csv("lookup_codes/FRED-datasets-codes.csv")
 FRED_code = filter(FRED_code,str_match(FRED_code,"(, CA)"))
 scheme = str_detect(FRED_code[[2]],"(, CA)")
@@ -106,3 +107,25 @@ for (i in 1:length(primary)){
 scheme = Reduce("|",scheme)
 FRED_code2 = data_frame(code = FRED_code1[[1]][scheme],define = FRED_code1[[2]][scheme])
 
+#Taking out the population data, and attached the county name
+FRED_codepopu <- filter(FRED_code2, grepl('Population', define)) %>%
+  mutate(county = str_replace(define, ".+ in (.+) County.+", "\\1"))
+popudata <- NULL
+for (i in 1:7) {
+  popudata1 <- Quandl(FRED_codepopu$code[i]) %>%
+    mutate(county = FRED_codepopu$county[i])
+  popudata <- rbind(popudata, popudata1)
+}
+write.csv(popudata, "popudata.csv")
+
+#Taking out the GDP per capita data, and attached the county name
+FRED_codegdppc <- filter(FRED_code2, grepl('Per Capita', define)) %>%
+  mutate(county = str_replace(define, ".+ in (.+) County.+", "\\1")) %>%
+  .[c(1:5, 8, 10), ]
+gdppcdata <- NULL
+for (i in 1:7) {
+  gdppcdata1 <- Quandl(FRED_codegdppc$code[i]) %>%
+    mutate(county = FRED_codegdppc$county[i])
+  gdppcdata <- rbind(gdppcdata, gdppcdata1)
+}
+write.csv(gdppcdata, "gdppcdata.csv")
