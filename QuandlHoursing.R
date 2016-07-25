@@ -83,14 +83,14 @@ for(j in types){
 }
 
 City_pricing = unique(City_pricing)
-write.csv(City_pricing,"datas/pricing_by_city.csv")
-write.csv(CA_pricing,"datas/pricing_by_state.csv")
+write.csv(City_pricing,"raw_data/pricing_by_city.csv")
+write.csv(CA_pricing,"raw_data/pricing_by_state.csv")
 length(unique(City_pricing$City))
 
 
-City_pricing = read_csv("datas/pricing_by_city.csv") %>% 
+City_pricing = read_csv("raw_data/pricing_by_city.csv") %>% 
   .[-c(1)]
-CA_pricing = read_csv("datas/pricing_by_state.csv") %>% 
+CA_pricing = read_csv("raw_data/pricing_by_state.csv") %>% 
   .[-c(1)]
 #Importing the population data
 #variables:
@@ -119,7 +119,7 @@ for (i in 1:7) {
     mutate(county = FRED_codepopu$county[i])
   popudata <- rbind(popudata, popudata1)
 }
-write.csv(popudata, "popudata.csv")
+write.csv(popudata, "raw_data/popudata.csv")
 
 #Taking out the GDP per capita data, and attached the county name
 FRED_codegdppc <- filter(FRED_code2, grepl('Per Capita', define)) %>%
@@ -131,11 +131,11 @@ for (i in 1:7) {
     mutate(county = FRED_codegdppc$county[i])
   gdppcdata <- rbind(gdppcdata, gdppcdata1)
 }
-write.csv(gdppcdata, "gdppcdata.csv")
+write.csv(gdppcdata, "raw_data/gdppcdata.csv")
 
-pop_df = read_csv("datas/popudata.csv") %>% 
+pop_df = read_csv("raw_data/popudata.csv") %>% 
   .[-c(1)]
-gdp_df = read_csv("datas/gdppcdata.csv") %>% 
+gdp_df = read_csv("raw_data/gdppcdata.csv") %>% 
   .[-c(1)]
 
 
@@ -162,8 +162,15 @@ pop_df = mutate(pop_df,year = year(DATE))
 gdp_df = mutate(gdp_df,year = year(DATE))
 colnames(pop_df) = c("Date","Pop","County","year")
 colnames(gdp_df) = c("Date","Income","County","year")
-temp = inner_join(pop_df,gdp_df) %>% 
+
+bubble_data = inner_join(pop_df,gdp_df) %>% 
   mutate(Pop = Pop*1000) %>% 
-  .[-1]
-df = inner_join(temp,City_pricing)
+  .[-1] %>% 
+  inner_join(City_pricing) %>% 
+  write_csv("clean_data/cleaned_bubble_data.csv")
+
+map_data = df %>%
+  group_by(year, County,Type) %>% 
+  dplyr::summarise(Mean = mean(Value)) %>% 
+  write_csv("clean_data/cleaned_map_data.csv")
 
