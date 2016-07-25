@@ -151,6 +151,19 @@ pop_plt
 gdp_plt = ggplot(gdp_df,aes(x=DATE,y=VALUE,color=county)) +
   geom_smooth() +
   geom_line() + 
-  labs(title="GDP VS. Year", x = "Year(s)",y ="GDP per Capita (dollar)") +
+  labs(title="Income VS. Year", x = "Year(s)",y ="Income per Capita (dollar)") +
   scale_x_date(breaks = date_breaks("5 years"), date_labels = "%Y")
 gdp_plt
+
+#Cleaning Data
+c_types = c("A","SF","MVSF","2B","3B","4B")
+City_pricing = mutate(City_pricing,year = year(Date))
+pop_df = mutate(pop_df,year = year(DATE))
+gdp_df = mutate(gdp_df,year = year(DATE))
+colnames(pop_df) = c("Date","Pop","County","year")
+colnames(gdp_df) = c("Date","Income","County","year")
+temp = inner_join(pop_df,gdp_df) %>% 
+  mutate(Pop = Pop*1000) %>% 
+  .[-1]
+df = inner_join(temp,City_pricing)
+
