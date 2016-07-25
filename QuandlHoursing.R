@@ -9,6 +9,9 @@ library(lubridate)
 library(plyr)
 library(ggplot2)
 library(rvest)
+library(ggmap)
+library(mapdata)
+library(scales)
 
 city_code = read_csv("lookup_codes/city_codes.csv")
 city_code = mutate(city_code,code = str_extract(city_code[[4]],"[0-9].*"))
@@ -129,3 +132,25 @@ for (i in 1:7) {
   gdppcdata <- rbind(gdppcdata, gdppcdata1)
 }
 write.csv(gdppcdata, "gdppcdata.csv")
+
+pop_df = read_csv("datas/popudata.csv") %>% 
+  .[-c(1)]
+gdp_df = read_csv("datas/gdppcdata.csv") %>% 
+  .[-c(1)]
+
+
+#Graphing the data
+pop_plt = ggplot(pop_df,aes(x=DATE,y=VALUE,color=county)) +
+  geom_smooth() +
+  geom_line() + 
+  labs(title="Population VS. Year", x = "Year(s)",y ="Population(thousand)") +
+  scale_x_date(breaks = date_breaks("5 years"), date_labels = "%Y")
+pop_plt
+
+
+gdp_plt = ggplot(gdp_df,aes(x=DATE,y=VALUE,color=county)) +
+  geom_smooth() +
+  geom_line() + 
+  labs(title="GDP VS. Year", x = "Year(s)",y ="GDP per Capita (dollar)") +
+  scale_x_date(breaks = date_breaks("5 years"), date_labels = "%Y")
+gdp_plt
