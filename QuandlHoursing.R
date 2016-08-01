@@ -177,7 +177,7 @@ map_data = City_pricing %>%
 bubble_data = read_csv("clean_data/cleaned_bubble_data.csv")
 map_data = read_csv("clean_data/cleaned_map_data.csv")
 
-#Graphing the map
+#Processing the graphing data
 states = map_data("state")
 ca_df = filter(states, region == "california")
 counties = map_data("county")
