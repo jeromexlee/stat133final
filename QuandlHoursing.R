@@ -169,8 +169,44 @@ bubble_data = inner_join(pop_df,gdp_df) %>%
   inner_join(City_pricing) %>% 
   write_csv("clean_data/cleaned_bubble_data.csv")
 
-map_data = df %>%
+map_data = City_pricing %>%
   group_by(year, County,Type) %>% 
   dplyr::summarise(Mean = mean(Value)) %>% 
   write_csv("clean_data/cleaned_map_data.csv")
+
+bubble_data = read_csv("clean_data/cleaned_bubble_data.csv")
+map_data = read_csv("clean_data/cleaned_map_data.csv")
+
+#Graphing the map
+states = map_data("state")
+ca_df = filter(states, region == "california")
+counties = map_data("county")
+ca_county = filter(counties, region == "california")
+
+ca_base = ggplot(ca_df, aes(x = long, y = lat, group = group)) + 
+  coord_fixed(1.3) + 
+  geom_polygon(color = "black", fill = "gray")
+
+county_html <- read_html("https://en.wikipedia.org/wiki/List_of_counties_in_California")
+pop_and_area <- county_html %>% 
+  html_node(".wikitable.sortable") %>% 
+  html_table() %>% 
+  select(county = County, population = `Population[6]`, area = `Area[4]`) %>% 
+  mutate(county = county %>% 
+           str_replace_all(c("City and County of San Francisco" = "San Francisco",
+                             " County" = "")) %>% 
+           str_to_lower,
+         population = population %>% 
+           str_replace_all(".*\u2660", "") %>% parse_number,
+         area = area %>% 
+           str_replace_all(".*\u2660|\n.*", "") %>%  parse_number)
+cacopa <- inner_join(ca_county, pop_and_area, by = c("subregion" = "county"))
+cacopa <- mutate(cacopa, people_per_mile = population / area)
+new_map_data = inner_join(cacopa,map_data,by = c("subregion" = "County"))
+
+
+
+
+
+
 
