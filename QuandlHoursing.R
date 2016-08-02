@@ -140,6 +140,7 @@ gdp_df = read_csv("raw_data/gdppcdata.csv") %>%
 ######################   Load Cleaning Data ####################
 c_types = c("A","SF","MVSF","2B","3B","4B")
 City_pricing = mutate(City_pricing,year = year(Date))
+City_pricing = mutate(City_pricing,County = tolower(County))
 pop_df = mutate(pop_df,year = year(DATE))
 gdp_df = mutate(gdp_df,year = year(DATE))
 colnames(pop_df) = c("Date","Pop","County","year")
@@ -222,4 +223,6 @@ gdp_plt = ggplot(gdp_df,aes(x=Date,y=Income,color=County)) +
   labs(title="Income VS. Year", x = "Year(s)",y ="Income per Capita (dollar)") +
   scale_x_date(breaks = date_breaks("5 years"), date_labels = "%Y")
 gdp_plt
+
+test_data = filter(bubble_data,Type = PRR)
 
