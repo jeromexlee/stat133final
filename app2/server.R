@@ -10,7 +10,7 @@ library(xml2)
 
 shinyServer(function(input, output) {
   output$plot <- renderPlot({
-    df = read.csv("../clean_data/cleaned_map_data.csv") %>%
+    df = read_csv("cleaned_map_data.csv") %>%
     	filter(year == input$year)
     ditch_the_axes <- theme(
       axis.text = element_blank(),
