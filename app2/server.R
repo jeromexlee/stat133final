@@ -10,13 +10,28 @@ library(xml2)
 
 shinyServer(function(input, output) {
   output$plot <- renderPlot({
-    full_data = read.csv("cleaned_data.csv") %>%
-    	filter(quest == input$question) %>%
-      	right_join(map_data("state"),by="region")
-    ggplot(full_data) + 
-      geom_polygon(aes(x = long, y = lat, fill = answer, group = group), color = "black") +
-      coord_fixed(1.3)+
-      scale_fill_discrete(labels=function(x) str_wrap(x,width=20))+
-      labs(title=input$question, x = "", y = "")
+    df = read.csv("../clean_data/cleaned_map_data.csv") %>%
+    	filter(year == input$year)
+    ditch_the_axes <- theme(
+      axis.text = element_blank(),
+      axis.line = element_blank(),
+      axis.ticks = element_blank(),
+      panel.border = element_blank(),
+      panel.grid = element_blank(),
+      axis.title = element_blank()
+    )
+    states = map_data("state")
+    ca_df = filter(states, region == "california")
+    ggplot(ca_df, aes(x = long, y = lat, group = group)) + 
+      coord_fixed(1.3) + 
+      geom_polygon(color = "black", fill = "gray") +
+      geom_polygon(data = df, aes_string(fill=input$factor),color = "white")+
+      geom_polygon(color = 'black',fill=NA)+
+      theme_bw() +
+      ditch_the_axes +
+      coord_fixed(xlim = c(-123, -121.0),  
+                  ylim = c(37, 39), 
+                  ratio = 1.3) +
+      labs(title = input$year)
   })
 })

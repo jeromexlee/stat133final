@@ -173,9 +173,9 @@ ca_base = ggplot(ca_df, aes(x = long, y = lat, group = group)) +
 new_map_data = inner_join(ca_county, map_data, by = c("subregion" = "County")) %>% 
   inner_join(pop_df,by = c("subregion" = "County","year")) %>% 
   inner_join(gdp_df,by = c("subregion" = "County","year")) %>% 
-  select(-Date.x,-Date.y)
-
-write_csv(new_map_data,"clean_data/cleaned_map_data.csv")
+  select(-Date.x,-Date.y) %>% 
+  spread(new_map_data,Type,Mean)
+write_csv(map_data,"clean_data/cleaned_map_data.csv")
 
 ######################  Load Cleaning Data ####################
 #variables: 
@@ -183,6 +183,7 @@ write_csv(new_map_data,"clean_data/cleaned_map_data.csv")
 #       map_data: dataframe
 bubble_data = read_csv("clean_data/cleaned_bubble_data.csv")
 map_data = read_csv("clean_data/cleaned_map_data.csv")
+# colnames(map_data) =c("long","lat","group","order","region","subregion","year","Pop","Income","twoB","threeB","fourB","A","BT","DV","FR","HF","HR","IV","LPC","MLP","MLPSF","MPC","MSP","MSPSF","MT","MVSF","PRR","RAH","RMP","RZSF","SF","SFG","SFL","SLPR","SPY","TT")
 
 
 
@@ -196,6 +197,7 @@ ditch_the_axes <- theme(
   panel.grid = element_blank(),
   axis.title = element_blank()
 )
+
 plt1 = ca_base + geom_polygon(data = test_data, aes(fill=Income),color = "white")+
   geom_polygon(color = 'black',fill=NA)+
   theme_bw() +
@@ -206,7 +208,7 @@ plt1 = ca_base + geom_polygon(data = test_data, aes(fill=Income),color = "white"
 
 
 #Graphing the data
-pop_plt = ggplot(pop_df,aes(x=DATE,y=VALUE,color=county)) +
+pop_plt = ggplot(pop_df,aes(x=Date,y=Pop,color=County)) +
   geom_smooth() +
   geom_line() + 
   labs(title="Population VS. Year", x = "Year(s)",y ="Population(thousand)") +
@@ -214,7 +216,7 @@ pop_plt = ggplot(pop_df,aes(x=DATE,y=VALUE,color=county)) +
 pop_plt
 
 
-gdp_plt = ggplot(gdp_df,aes(x=DATE,y=VALUE,color=county)) +
+gdp_plt = ggplot(gdp_df,aes(x=Date,y=Income,color=County)) +
   geom_smooth() +
   geom_line() + 
   labs(title="Income VS. Year", x = "Year(s)",y ="Income per Capita (dollar)") +
