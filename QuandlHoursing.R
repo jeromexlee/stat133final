@@ -147,11 +147,10 @@ colnames(pop_df) = c("Date","Pop","County","year")
 colnames(gdp_df) = c("Date","Income","County","year")
 
 #Processing the data for bubbling
-bubble_data = inner_join(pop_df,gdp_df) %>% 
+bubble_data = inner_join(zs) %>% 
   mutate(Pop = Pop*1000) %>% 
   .[-1] %>% 
   inner_join(City_pricing) %>% 
-  mutate(County = tolower(County)) %>% 
   write_csv("clean_data/cleaned_bubble_data.csv")
 
 
@@ -184,6 +183,17 @@ write_csv(map_data,"clean_data/cleaned_map_data.csv")
 #       map_data: dataframe
 bubble_data = read_csv("clean_data/cleaned_bubble_data.csv")
 map_data = read_csv("clean_data/cleaned_map_data.csv")
+pop_df = read_csv("raw_data/popudata.csv") %>% 
+  .[-c(1)] %>% 
+  mutate(county = tolower(county))
+gdp_df = read_csv("raw_data/gdppcdata.csv") %>% 
+  .[-c(1)] %>% 
+  mutate(county = tolower(county))
+pop_df = mutate(pop_df,year = year(DATE))
+gdp_df = mutate(gdp_df,year = year(DATE))
+colnames(pop_df) = c("Date","Pop","County","year")
+colnames(gdp_df) = c("Date","Income","County","year")
+primary = c("alameda","contra costa","san mateo","marin","napa","sacramento","santa clara","san francisco")
 # colnames(map_data) =c("long","lat","group","order","region","subregion","year","Pop","Income","twoB","threeB","fourB","A","BT","DV","FR","HF","HR","IV","LPC","MLP","MLPSF","MPC","MSP","MSPSF","MT","MVSF","PRR","RAH","RMP","RZSF","SF","SFG","SFL","SLPR","SPY","TT")
 
 
@@ -209,6 +219,11 @@ plt1 = ca_base + geom_polygon(data = test_data, aes(fill=Income),color = "white"
 
 
 #Graphing the data
+#Graph Bubble 
+runApp("app1")
+#Graph Map
+runApp("app2")
+#Plot of  vs year
 pop_plt = ggplot(pop_df,aes(x=Date,y=Pop,color=County)) +
   geom_smooth() +
   geom_line() + 
@@ -216,7 +231,7 @@ pop_plt = ggplot(pop_df,aes(x=Date,y=Pop,color=County)) +
   scale_x_date(breaks = date_breaks("5 years"), date_labels = "%Y")
 pop_plt
 
-
+#Plot of income vs year
 gdp_plt = ggplot(gdp_df,aes(x=Date,y=Income,color=County)) +
   geom_smooth() +
   geom_line() + 
@@ -224,5 +239,17 @@ gdp_plt = ggplot(gdp_df,aes(x=Date,y=Income,color=County)) +
   scale_x_date(breaks = date_breaks("5 years"), date_labels = "%Y")
 gdp_plt
 
-test_data = filter(bubble_data,Type = PRR)
+#The plots of PRR value
+#Param: 
+#     prr_plt: list, saving all the plots of each county
+test_data = filter(bubble_data,Type == 'PRR')
+prr_plt = list()
+for(i in 1:length(primary)){
+  temp = ggplot(filter(test_data,County == primary[i]),aes(x=Date,y=Value,color=City)) +
+    geom_smooth() +
+    geom_line()
+  prr_plt[[i]] = temp
+}
+names(prr_plt) = primary
+
 
