@@ -66,7 +66,7 @@ for(j in types){
     CA_pricing = rbind(CA_pricing,temp)
 }
 
-for(i in 5:length(city_code$code)){
+for(i in 1:length(city_code$code)){
   for(j in c_types){
     scheme = str_c("ZILL/C",city_code$code[i],"_",j)
     #print(scheme)
@@ -98,25 +98,25 @@ length(unique(City_pricing$City))
 #Taking out the population data, and attached the county name
 FRED_codepopu <- filter(FRED_code2, grepl('Population', define)) %>%
   mutate(county = str_replace(define, ".+ in (.+) County.+", "\\1"))
-popudata <- NULL
-for (i in 1:7) {
-  popudata1 <- Quandl(FRED_codepopu$code[i]) %>%
+pop_df <- NULL
+for (i in 1:8) {
+  temp <- Quandl(FRED_codepopu$code[i]) %>%
     mutate(county = FRED_codepopu$county[i])
-  popudata <- rbind(popudata, popudata1)
+  pop_df <- rbind(pop_df, temp)
 }
-write.csv(popudata, "raw_data/popudata.csv")
+write.csv(pop_df, "raw_data/popudata.csv")
 
 #Taking out the GDP per capita data, and attached the county name
 FRED_codegdppc <- filter(FRED_code2, grepl('Per Capita', define)) %>%
   mutate(county = str_replace(define, ".+ in (.+) County.+", "\\1")) %>%
   .[c(1:5, 8, 10), ]
-gdppcdata <- NULL
+gdp_df <- NULL
 for (i in 1:7) {
-  gdppcdata1 <- Quandl(FRED_codegdppc$code[i]) %>%
-    mutate(county = FRED_codegdppc$county[i])
-  gdppcdata <- rbind(gdppcdata, gdppcdata1)
+  temp <- Quandl(FRED_codegdppc$code[2]) %>%
+    mutate(county = FRED_codegdppc$county[2])
+  gdp_df <- rbind(gdp_df, temp)
 }
-write.csv(gdppcdata, "raw_data/gdppcdata.csv")
+write.csv(gdp_df, "raw_data/gdppcdata.csv")
 
 ######################   Load Saved Data ####################
 #variables: 
