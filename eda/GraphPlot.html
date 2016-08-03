@@ -172,14 +172,85 @@ gdp_plt</code></pre>
 #Param: 
 #     prr_plt: list, saving all the plots of each county
 test_data = filter(bubble_data,Type == 'PRR')
-prr_plt = list()
+Price_to_Rent_plt = list()
 for(i in 1:length(primary)){
-  temp = ggplot(filter(test_data,County == primary[i]),aes(x=Date,y=Value,color=City)) +
+  temp = ggplot(filter(test_data,County == ignore.case(primary[i])),aes(x=Date,y=Value,color=City)) +
     geom_smooth() +
     geom_line()
-  prr_plt[[i]] = temp
-}
-names(prr_plt) = primary</code></pre>
+  Price_to_Rent_plt[[i]] = temp
+}</code></pre>
+<pre><code>## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)</code></pre>
+<pre class="r"><code>names(Price_to_Rent_plt) = primary
+
+#The plots of HF value
+#Param:
+#     foreclosure_plt: list, saving all the plots of each county
+Foreclosure_test_data=filter(bubble_data,Type=='HF')
+foreclosure_plt=list()
+for(i in 1:length(primary)){
+  temp = ggplot(filter(Foreclosure_test_data,County == ignore.case(primary[i])),aes(x=Date,y=Value,color=City)) +
+    geom_smooth() +
+    geom_line()
+  foreclosure_plt[[i]] = temp
+}</code></pre>
+<pre><code>## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)</code></pre>
+<pre class="r"><code>names(foreclosure_plt)=primary
+
+#The plots of RMP value
+#Param:
+#     foreclosure_plt: list, saving all the plots of each county
+median_rent_data=filter(bubble_data,Type==&quot;RMP&quot;)
+median_rent_plt=list()
+for(i in 1:length(primary)){
+  temp = ggplot(filter(median_rent_data,County == ignore.case(primary[i])),aes(x=Date,y=Value,color=City)) +
+    geom_smooth() +
+    geom_line()
+  median_rent_plt[[i]] = temp
+}</code></pre>
+<pre><code>## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)</code></pre>
+<pre class="r"><code>names(median_rent_plt)=primary
+
+#The plots of HR value
+#Param:
+#     foreclosure_plt: list, saving all the plots of each county
+Homes_For_Rent_data=filter(bubble_data,Type==&quot;HR&quot;)
+Homes_For_Rent_plt=list()
+for(i in 1:length(primary)){
+  temp = ggplot(filter(Homes_For_Rent_data,County == ignore.case(primary[i])),aes(x=Date,y=Value,color=City)) +
+    geom_smooth() +
+    geom_line()
+  Homes_For_Rent_plt[[i]] = temp
+}</code></pre>
+<pre><code>## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)
+## Please use (fixed|coll|regexp)(x, ignore_case = TRUE) instead of ignore.case(x)</code></pre>
+<pre class="r"><code>names(Homes_For_Rent_plt)=primary</code></pre>
 </div>
 
 
