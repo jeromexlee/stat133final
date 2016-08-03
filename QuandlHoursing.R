@@ -147,10 +147,11 @@ colnames(pop_df) = c("Date","Pop","County","year")
 colnames(gdp_df) = c("Date","Income","County","year")
 
 #Processing the data for bubbling
-bubble_data = inner_join(zs) %>% 
+bubble_data = inner_join(pop_df,gdp_df) %>% 
   mutate(Pop = Pop*1000) %>% 
   .[-1] %>% 
   inner_join(City_pricing) %>% 
+  mutate(Month = month(Date)) %>% 
   write_csv("clean_data/cleaned_bubble_data.csv")
 
 
