@@ -1,0 +1,9 @@
+name: my_app
+account: jeromexlee
+server: shinyapps.io
+appId: 115826
+bundleId: 519510
+url: https://jeromexlee.shinyapps.io/my_app/
+when: 1469833813.17496
+asMultiple: FALSE
+asStatic: FALSE
