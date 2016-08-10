@@ -1,4 +1,6 @@
-# stat133final
+# Stat133 Final Project
+## Reminder  
+Before compilering the final paper rmd file, must knit the Final Paper RMD from the "paper" directory.  
 ## Quandl API  
 [ZILL](https://www.quandl.com/blog/api-for-housing-data)  
 [FRED](https://www.quandl.com/data/FRED/documentation/metadata)
@@ -8,3 +10,4 @@
 [sample2](https://docs.google.com/file/d/0B1Q0W6RJqTWHUkllX3g0WjQycGs/edit?pli=1)
 ## Apps
 [map](https://jeromexlee.shinyapps.io/map_graph/)  
+
