@@ -54,8 +54,10 @@ ca_county = filter(counties, region == "california")
 ca_base = ggplot(ca_df, aes(x = long, y = lat, group = group)) + 
   coord_fixed(1.3) + 
   geom_polygon(color = "black", fill = "gray")
-#Graphing the data
-#Plot of  vs year
+
+#Plot of Population vs year
+#X axis : Year 1970 - 2015
+#Y axis : Number of population (divided by 1000)
 pop_plt = ggplot(pop_df,aes(x=Date,y=Pop,color=County)) +
   geom_smooth() +
   geom_line() + 
@@ -64,6 +66,8 @@ pop_plt = ggplot(pop_df,aes(x=Date,y=Pop,color=County)) +
 pop_plt
 
 #Plot of income vs year
+#X axis : Year 1970 - 2015
+#Y axis : Income per Capita (USD)
 gdp_plt = ggplot(gdp_df,aes(x=Date,y=Income,color=County)) +
   geom_smooth() +
   geom_line() + 
@@ -71,16 +75,95 @@ gdp_plt = ggplot(gdp_df,aes(x=Date,y=Income,color=County)) +
   scale_x_date(breaks = date_breaks("5 years"), date_labels = "%Y")
 gdp_plt
 
-#The plots of PRR value
+#The plots of Price-to-Rent value for each year
 #Param: 
 #     prr_plt: list, saving all the plots of each county
+#X axis : Year 2010 - 2014
+#Y axis : Price-to-Rent value
+#Example: Price_to_Rent_plt[[1]] -> Plots for Alameda County. See the primary vector above.
 test_data = filter(bubble_data,Type == 'PRR')
-prr_plt = list()
+Price_to_Rent_plt = list()
 for(i in 1:length(primary)){
-  temp = ggplot(filter(test_data,County == primary[i]),aes(x=Date,y=Value,color=City)) +
+  temp = ggplot(filter(test_data,County == ignore.case(primary[i])),aes(x=Date,y=Value,color=City)) +
     geom_smooth() +
     geom_line()
-  prr_plt[[i]] = temp
+  Price_to_Rent_plt[[i]] = temp
 }
-names(prr_plt) = primary
+names(Price_to_Rent_plt) = primary
+
+#The plots of value of Monthly Foreclosures per 10,000 Homes
+#Param:
+#     foreclosure_plt: list, saving all the plots of each county
+#X axis : Year 1998 - 2014
+#Y axis : Monthly foreclosures value
+Foreclosure_test_data=filter(bubble_data,Type=='HF')
+foreclosure_plt=list()
+for(i in 1:length(primary)){
+  temp = ggplot(filter(Foreclosure_test_data,County == ignore.case(primary[i])),aes(x=Date,y=Value,color=City)) +
+    geom_smooth() +
+    geom_line()
+  foreclosure_plt[[i]] = temp
+}
+names(foreclosure_plt)=primary
+
+#The plots of Median Rent value
+#Param:
+#     median_rent_plt: list, saving all the plots of each county
+#X axis : Year 2010 - 2014
+#Y axis : Median Rent value
+median_rent_data=filter(bubble_data,Type=="RMP")
+median_rent_plt=list()
+for(i in 1:length(primary)){
+  temp = ggplot(filter(median_rent_data,County == ignore.case(primary[i])),aes(x=Date,y=Value,color=City)) +
+    geom_smooth() +
+    geom_line()
+  median_rent_plt[[i]] = temp
+}
+names(median_rent_plt)=primary
+
+#The plots of the number of homes for rent
+#Param:
+#     foreclosure_plt: list, saving all the plots of each county
+#X axis : Year 2010-2014
+#Y axis : Homes for rent
+Homes_For_Rent_data=filter(bubble_data,Type=="HR")
+Homes_For_Rent_plt=list()
+for(i in 1:length(primary)){
+  temp = ggplot(filter(Homes_For_Rent_data,County == ignore.case(primary[i])),aes(x=Date,y=Value,color=City)) +
+    geom_smooth() +
+    geom_line()
+  Homes_For_Rent_plt[[i]] = temp
+}
+names(Homes_For_Rent_plt)=primary
+
+#Collect the CPI value from year 1913-2008
+CPIpage="http://www.usinflationcalculator.com/inflation/consumer-price-index-and-annual-percent-changes-from-1913-to-2008/"
+xpath='//*[@border=0]'
+CPITable<- CPIpage %>% 
+  read_html() %>% 
+  html_nodes(xpath=xpath) %>% 
+  .[1] %>% 
+  html_table(fill=TRUE) %>% 
+  as.data.frame() %>% 
+  slice(c(-1,-2)) %>% 
+  select(1,14)
+  gdp_df = read_csv("../raw_data/gdppcdata.csv") %>% 
+  .[-c(1)] %>% 
+  mutate(county = tolower(county))
+gdp_df=mutate(gdp_df,year=year(DATE))
+colnames(gdp_df) = c("Date","Income","County","year")
+
+colnames(CPITable)=c("year","CPI_Average")
+CPITable <- CPITable %>% 
+  mutate(year=as.numeric(year),CPI_Average=as.numeric(CPI_Average)) %>% 
+  mutate(Inflation_Ratio_2000=CPI_Average/CPI_Average[which(year=="2000")])
+joined_CPI_gdp<-left_join(gdp_df,CPITable) %>% 
+  mutate(Real_Income=Income/Inflation_Ratio_2000)
+
+#Plot of Real Income vs Year, getting rid of the affection of inflation. 
+Real_gdp_plt = ggplot(joined_CPI_gdp,aes(x=Date,y=Real_Income,color=County)) +
+  geom_line() + 
+  labs(title="Real Income VS. Year", x = "Year(s)",y ="Real Income per Capita (dollar)") +
+  scale_x_date(breaks = date_breaks("5 years"), date_labels = "%Y")
+Real_gdp_plt
 ```

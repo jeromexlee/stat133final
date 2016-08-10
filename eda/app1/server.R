@@ -7,7 +7,7 @@ shinyServer(function(input, output) {
   output$plot <- renderPlot({
 	df = read.csv("cleaned_bubble_data.csv") %>% 
 		filter(year == input$year & Type == input$type & County == input$county)
-	xaxis = "Date"
+	xaxis = "Month"
 	yaxis = "Value"
 	region = "City"
 	pop = input$factor
@@ -17,7 +17,8 @@ shinyServer(function(input, output) {
 		# scale_x_log10(limits = c(500, 50000), breaks = c(500, 5000, 50000), labels = dollar_format(prefix="$")) + 
 		# scale_y_continuous(limits = c(20,80), breaks = seq(25,75,25), labels = c("25 \nyears", "50 \nyears", "75 \nyears")) +
 		# guides(size = FALSE, alpha = FALSE) + 
-		labs(x = "GDP Per Capita (Inflation-Adjusted)", y = "Life Expectancy at Birth", title = input$year)
+		labs(x = "Month", y = "Price", title = input$year)+
+		scale_x_continuous(breaks = seq(1,12,1))
 		# scale_size_area(max_size = 30)
 		# scale_fill_manual(values = colors)
   })

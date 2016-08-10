@@ -1,0 +1,42 @@
+1.pricing_by_state.csv
+
+Shows the average housing price in California on several housing types, each month.
+
+Variables:
+Date:Date, The date of each value.
+Value:Numeric, Average housing price on each month.
+State:The original data stores for all states, but since the data is too big we filtered by "CA" 
+at first.
+Type:Character, showing the housing type. See https://www.quandl.com/blog/api-for-housing-data for 
+the definition of each letters.
+
+2.pricing_by_state.csv
+
+Shows the average housing price in cities in California on several housing types, each month.
+
+Variables:
+Date:Date, The date of each value.
+Value:Numeric, Average housing price on each month.
+City:Character, name of city
+County:Character, name of county
+Metro:Character, name of metro
+Type:Character, showing the housing type. See https://www.quandl.com/blog/api-for-housing-data for 
+the definition of each letters.
+
+3.popudata.csv
+
+Shows the population of each county each year.
+
+Variables:
+DATE:Date, The date of each value.
+VALUE:Numeric, The number of population(multiply by 1000 to get the actual value).
+county:Character, name of county.
+
+4.gdppcdata.csv
+
+Shows the GDP per capita for each county.
+
+Variables:
+DATE:Date, The date of each value.
+VALUE:Numeric, The number of each GDP per capita in dollars.
+county:Character, name of county.

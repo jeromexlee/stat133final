@@ -1,0 +1,3153 @@
+Los Angeles,CA,Los Angeles|00001
+Cook,IL,Chicago|00002
+Maricopa,AZ,Phoenix|00003
+San Diego,CA,San Diego|00004
+Orange,CA,Los Angeles|00005
+Kings,NY,New York|00006
+Miami-Dade,FL,Miami-Fort Lauderdale|00007
+Dallas,TX,Dallas-Fort Worth|00008
+Queens,NY,New York|00009
+Riverside,CA,Riverside|00010
+San Bernardino,CA,Riverside|00011
+Clark,NV,Las Vegas|00012
+King,WA,Seattle|00013
+Wayne,MI,Detroit|00014
+Santa Clara,CA,San Jose|00015
+Broward,FL,Miami-Fort Lauderdale|00016
+New York,NY,New York|00017
+Philadelphia,PA,Philadelphia|00018
+Alameda,CA,San Francisco|00019
+Middlesex,MA,Boston|00020
+Suffolk,NY,New York|00021
+Sacramento,CA,Sacramento|00022
+Bronx,NY,New York|00023
+Nassau,NY,New York|00024
+Palm Beach,FL,Miami-Fort Lauderdale|00025
+Cuyahoga,OH,Cleveland|00026
+Hillsborough,FL,Tampa|00027
+Allegheny,PA,Pittsburgh|00028
+Oakland,MI,Detroit|00029
+Franklin,OH,Columbus|00030
+Hennepin,MN,Minneapolis-St Paul|00031
+Orange,FL,Orlando|00032
+Fairfax,VA,Washington|00033
+Contra Costa,CA,San Francisco|00034
+Salt Lake,UT,Salt Lake City|00035
+Saint Louis,MO,St. Louis|00036
+Pima,AZ,Tucson|00037
+Montgomery,MD,Washington|00038
+Honolulu,HI,Honolulu|00039
+Westchester,NY,New York|00040
+Milwaukee,WI,Milwaukee|00041
+Fresno,CA,Fresno|00042
+Shelby,TN,Memphis|00043
+Fulton,GA,Atlanta|00044
+Mecklenburg,NC,Charlotte|00045
+Du Page,IL,Chicago|00046
+Fairfield,CT,Stamford|00047
+Pinellas,FL,Tampa|00048
+Bergen,NJ,New York|00049
+Wake,NC,Raleigh|00050
+Hartford,CT,Hartford|00051
+Duval,FL,Jacksonville|00052
+Prince Georges,MD,Washington|00053
+New Haven,CT,New Haven|00054
+Macomb,MI,Detroit|00055
+Kern,CA,Bakersfield|00056
+Ventura,CA,Ventura|00057
+Middlesex,NJ,New York|00058
+Gwinnett,GA,Atlanta|00059
+San Francisco,CA,San Francisco|00060
+Baltimore,MD,Baltimore|00061
+Hamilton,OH,Cincinnati|00062
+Montgomery,PA,Philadelphia|00063
+Worcester,MA,Worcester|00064
+Pierce,WA,Seattle|00065
+Essex,NJ,New York|00066
+Monroe,NY,Rochester|00067
+Essex,MA,Boston|00068
+Jefferson,KY,Louisville/Jefferson County|00069
+Multnomah,OR,Portland|00070
+Suffolk,MA,Boston|00071
+Oklahoma,OK,Oklahoma City|00072
+San Mateo,CA,San Francisco|00073
+Snohomish,WA,Seattle|00074
+Lake,IL,Chicago|00075
+Dekalb,GA,Atlanta|00076
+Cobb,GA,Atlanta|00077
+San Joaquin,CA,Stockton|00078
+Will,IL,Chicago|00079
+Norfolk,MA,Boston|00080
+Bernalillo,NM,Albuquerque|00081
+Jefferson,AL,Birmingham|00082
+Hudson,NJ,New York|00083
+Monmouth,NJ,New York|00084
+Davidson,TN,Nashville|00085
+Providence,RI,Providence|00086
+Bucks,PA,Philadelphia|00087
+El Paso,CO,Colorado Springs|00088
+Baltimore City,MD,Baltimore|00089
+Lee,FL,Fort Myers|00090
+Tulsa,OK,Tulsa|00091
+Kent,MI,Grand Rapids|00092
+Polk,FL,Lakeland|00093
+District of Columbia,DC,Washington|00094
+Denver,CO,Denver|00095
+Ocean,NJ,New York|00096
+Arapahoe,CO,Denver|00097
+Delaware,PA,Philadelphia|00098
+Brevard,FL,Melbourne|00099
+Summit,OH,Akron|00100
+New Castle,DE,Philadelphia|00101
+Anne Arundel,MD,Baltimore|00102
+Union,NJ,New York|00103
+Montgomery,OH,Dayton|00104
+Jefferson,CO,Denver|00105
+Washington,OR,Portland|00106
+Lancaster,PA,Lancaster|00107
+Douglas,NE,Omaha|00108
+Utah,UT,Provo|00109
+Kane,IL,Chicago|00110
+Stanislaus,CA,Modesto|00111
+Camden,NJ,Philadelphia|00112
+Ramsey,MN,Minneapolis-St Paul|00113
+Passaic,NJ,New York|00114
+Chester,PA,Philadelphia|00115
+Sedgwick,KS,Wichita|00116
+Plymouth,MA,Boston|00117
+Volusia,FL,Daytona Beach|00118
+Morris,NJ,New York|00119
+Guilford,NC,Greensboro|00120
+Dane,WI,Madison|00121
+Sonoma,CA,Santa Rosa|00122
+Spokane,WA,Spokane|00123
+Richmond,NY,New York|00124
+Onondaga,NY,Syracuse|00125
+Pasco,FL,Tampa|00126
+Hampden,MA,Springfield|00127
+Greenville,SC,Greenville|00128
+Burlington,NJ,Philadelphia|00129
+Tulare,CA,Visalia|00130
+Lucas,OH,Toledo|00131
+Adams,CO,Denver|00132
+Virginia Beach City,VA,Virginia Beach|00133
+York,PA,York|00134
+Jefferson,LA,New Orleans|00135
+Knox,TN,Knoxville|00136
+Polk,IA,Des Moines|00137
+Genesee,MI,Flint|00138
+Clark,WA,Portland|00139
+Santa Barbara,CA,Santa Barbara|00140
+Seminole,FL,Orlando|00141
+Washoe,NV,Reno|00142
+Monterey,CA,Salinas|00143
+Solano,CA,Vallejo|00144
+Mobile,AL,Mobile|00145
+Berks,PA,Reading|00146
+Prince William,VA,Washington|00147
+Hillsborough,NH,Manchester|00148
+Dakota,MN,Minneapolis-St Paul|00149
+Ada,ID,Boise City|00150
+Waukesha,WI,Milwaukee|00151
+Pulaski,AR,Little Rock|00152
+Sarasota,FL,Sarasota|00153
+Clackamas,OR,Portland|00154
+Pinal,AZ,Phoenix|00155
+Stark,OH,Canton|00156
+Orange,NY,Poughkeepsie|00157
+Butler,OH,Cincinnati|00158
+Mercer,NJ,Trenton|00159
+Westmoreland,PA,Pittsburgh|00160
+Saint Charles,MO,St. Louis|00161
+Allen,IN,Fort Wayne|00162
+Lane,OR,Eugene|00163
+Forsyth,NC,Winston-Salem|00164
+Charleston,SC,Charleston|00165
+Lehigh,PA,Allentown|00166
+Placer,CA,Sacramento|00167
+Washtenaw,MI,Ann Arbor|00168
+Orleans,LA,New Orleans|00169
+Hamilton,TN,Chattanooga|00170
+Madison,AL,Huntsville|00171
+Marion,FL,Ocala|00172
+Anoka,MN,Minneapolis-St Paul|00173
+Somerset,NJ,New York|00174
+Manatee,FL,Sarasota|00175
+Collier,FL,Naples|00176
+Luzerne,PA,Scranton|00177
+Cumberland,NC,Fayetteville|00178
+Saint Louis City,MO,St. Louis|00179
+Chesterfield,VA,Richmond|00180
+Marion,OR,Salem|00181
+Loudoun,VA,Washington|00182
+Rockland,NY,New York|00183
+Bell,TX,Killeen|00184
+McHenry,IL,Chicago|00185
+Henrico,VA,Richmond|00186
+Davis,UT,Ogden|00187
+Albany,NY,Albany|00188
+Lorain,OH,Cleveland|00189
+Larimer,CO,Fort Collins|00190
+Northampton,PA,Allentown|00191
+Escambia,FL,Pensacola|00192
+Lake,FL,Orlando|00193
+Fayette,KY,Lexington|00194
+Winnebago,IL,Rockford|00195
+Rockingham,NH,Boston|00196
+Boulder,CO,Boulder|00197
+Gloucester,NJ,Philadelphia|00198
+Howard,MD,Baltimore|00199
+Douglas,CO,Denver|00200
+Lancaster,NE,Lincoln|00201
+Spartanburg,SC,Spartanburg|00202
+Ingham,MI,Lansing|00203
+Erie,PA,Erie|00204
+Saint Lucie,FL,Port St. Lucie|00205
+Leon,FL,Tallahassee|00206
+Greene,MO,Springfield|00207
+Atlantic,NJ,Atlantic City|00208
+New London,CT,New London|00209
+Saint Clair,IL,St. Louis|00210
+San Luis Obispo,CA,San Luis Obispo|00211
+Madison,IL,St. Louis|00212
+Osceola,FL,Orlando|00213
+Dauphin,PA,Harrisburg|00214
+Durham,NC,Durham|00215
+Saint Joseph,IN,South Bend|00216
+Chatham,GA,Savannah|00217
+Ottawa,MI,Holland|00218
+Rutherford,TN,Nashville|00219
+Lexington,SC,Columbia|00220
+Santa Cruz,CA,Santa Cruz|00221
+Clayton,GA,Atlanta|00222
+Cleveland,OK,Oklahoma City|00223
+Weld,CO,Greeley|00224
+Marin,CA,San Francisco|00225
+Thurston,WA,Olympia|00226
+Kitsap,WA,Bremerton|00227
+Kalamazoo,MI,Kalamazoo|00228
+Brown,WI,Green Bay|00229
+Alachua,FL,Gainesville|00230
+Harford,MD,Baltimore|00231
+Yakima,WA,Yakima|00232
+Mahoning,OH,Youngstown|00233
+Buncombe,NC,Asheville|00234
+Washington,MN,Minneapolis-St Paul|00235
+Cumberland,PA,Harrisburg|00236
+Oneida,NY,Utica|00237
+Frederick,MD,Washington|00238
+Weber,UT,Ogden|00239
+Lake,OH,Cleveland|00240
+Montgomery,AL,Montgomery|00241
+York,SC,Charlotte|00242
+Chesapeake City,VA,Virginia Beach|00243
+Clay,MO,Kansas City|00244
+Benton,AR,Fayetteville|00245
+Butte,CA,Chico|00246
+Saratoga,NY,Albany|00247
+Jefferson,MO,St. Louis|00248
+Niagara,NY,Buffalo|00249
+Barnstable,MA,Cape Cod|00250
+Lackawanna,PA,Scranton|00251
+Cherokee,GA,Atlanta|00252
+Warren,OH,Cincinnati|00253
+Linn,IA,Cedar Rapids|00254
+Yavapai,AZ,Prescott|00255
+Trumbull,OH,Youngstown|00256
+Dona Ana,NM,Las Cruces|00257
+Washington,PA,Pittsburgh|00258
+Arlington,VA,Washington|00259
+Gaston,NC,Charlotte|00260
+Richmond City,VA,Richmond|00261
+Henry,GA,Atlanta|00262
+Jackson,OR,Medford|00263
+Washington,AR,Fayetteville|00264
+New Hanover,NC,Wilmington|00265
+Union,NC,Charlotte|00266
+Whatcom,WA,Bellingham|00267
+Champaign,IL,Champaign-Urbana|00268
+Yolo,CA,Sacramento|00269
+Broome,NY,Binghamton|00270
+Richmond,GA,Augusta|00271
+Saint Louis,MN,Duluth|00272
+Mohave,AZ,Lake Havasu City|00273
+Saginaw,MI,Saginaw|00274
+Elkhart,IN,Elkhart|00275
+Sangamon,IL,Springfield|00276
+Clermont,OH,Cincinnati|00277
+Yuma,AZ,Yuma|00278
+Racine,WI,Racine|00279
+Shelby,AL,Birmingham|00280
+Tuscaloosa,AL,Tuscaloosa|00281
+Kanawha,WV,Charleston|00282
+Calcasieu,LA,Lake Charles|00283
+Clay,FL,Jacksonville|00284
+Saint Johns,FL,Jacksonville|00285
+Litchfield,CT,Torrington|00286
+Muscogee,GA,Columbus|00287
+Canyon,ID,Boise City|00288
+Anderson,SC,Anderson|00289
+Peoria,IL,Peoria|00290
+Hawaii,HI,Hilo|00291
+Butler,PA,Pittsburgh|00292
+Williamson,TN,Nashville|00293
+Ulster,NY,Kingston|00294
+Baldwin,AL,Daphne|00295
+El Dorado,CA,Sacramento|00296
+Livingston,MI,Detroit|00297
+Okaloosa,FL,Destin|00298
+Newport News City,VA,Virginia Beach|00299
+Vanderburgh,IN,Evansville|00300
+Hall,GA,Gainesville|00301
+Cabarrus,NC,Charlotte|00302
+Shawnee,KS,Topeka|00303
+Berkeley,SC,Charleston|00304
+Onslow,NC,Jacksonville|00305
+Shasta,CA,Redding|00306
+Outagamie,WI,Appleton|00307
+Forsyth,GA,Atlanta|00308
+Benton,WA,Kennewick|00309
+Imperial,CA,El Centro|00310
+Delaware,OH,Columbus|00311
+Tippecanoe,IN,Lafayette|00312
+Hernando,FL,Tampa|00313
+Medina,OH,Cleveland|00314
+Montgomery,TN,Clarksville|00315
+Muskegon,MI,Muskegon|00316
+Beaver,PA,Pittsburgh|00317
+Monroe,PA,East Stroudsburg|00318
+McLean,IL,Bloomington|00319
+Johnston,NC,Raleigh|00320
+Bay,FL,Panama City|00321
+Pitt,NC,Greenville|00322
+Carroll,MD,Baltimore|00323
+Winnebago,WI,Oshkosh|00324
+Kenosha,WI,Chicago|00325
+Kent,RI,Providence|00326
+Middlesex,CT,Hartford|00327
+Scott,IA,Davenport|00328
+Porter,IN,Chicago|00329
+Saint Clair,MI,Detroit|00330
+Davidson,NC,Thomasville|00331
+Boone,MO,Columbia|00332
+Kent,DE,Dover|00333
+Beaufort,SC,Hilton Head Island|00334
+Greene,OH,Dayton|00335
+Portage,OH,Akron|00336
+DeSoto,MS,Memphis|00337
+Sumner,TN,Nashville|00338
+Rock,WI,Janesville|00339
+Jackson,MI,Jackson|00340
+Aiken,SC,Augusta|00341
+Charlotte,FL,Punta Gorda|00342
+Kenton,KY,Cincinnati|00343
+Iredell,NC,Statesville|00344
+Rensselaer,NY,Albany|00345
+Pueblo,CO,Pueblo|00346
+Sarpy,NE,Omaha|00347
+Hampshire,MA,Springfield|00348
+Deschutes,OR,Bend|00349
+Wyandotte,KS,Kansas City|00350
+Cumberland,NJ,Vineland|00351
+Sullivan,TN,Kingsport|00352
+Berrien,MI,Niles|00353
+Chittenden,VT,Burlington|00354
+Bibb,GA,Macon|00355
+Maui,HI,Kahului|00356
+Schenectady,NY,Albany|00357
+Catawba,NC,Hickory|00358
+Kings,CA,Hanford|00359
+Tolland,CT,Hartford|00360
+Monroe,MI,Monroe|00361
+Santa Rosa,FL,Pensacola|00362
+Alamance,NC,Burlington|00363
+Johnson,TX,Dallas-Fort Worth|00364
+Madera,CA,Madera|00365
+Cass,ND,Fargo|00366
+Franklin,PA,Chambersburg|00367
+Ellis,TX,Dallas-Fort Worth|00368
+Sussex,NJ,New York|00369
+Yellowstone,MT,Billings|00370
+Rock Island,IL,Davenport|00371
+Washington,MD,Hagerstown|00372
+Mesa,CO,Grand Junction|00373
+Charles,MD,Washington|00374
+Merrimack,NH,Concord|00375
+Martin,FL,Port St. Lucie|00376
+Fairfield,OH,Columbus|00377
+Hendricks,IN,Indianapolis|00378
+Santa Fe,NM,Santa Fe|00379
+Paulding,GA,Atlanta|00380
+Randolph,NC,Greensboro|00381
+Citrus,FL,Homosassa Springs|00382
+Alexandria City,VA,Washington|00383
+Houston,GA,Warner Robins|00384
+Johnson,IN,Indianapolis|00385
+Rowan,NC,Salisbury|00386
+Clark,OH,Springfield|00387
+Washington,UT,St. George|00388
+Indian River,FL,Vero Beach|00389
+Monroe,IN,Bloomington|00390
+Hampton City,VA,Virginia Beach|00391
+Florence,SC,Florence|00392
+Fayette,PA,Pittsburgh|00393
+Dorchester,SC,Charleston|00394
+Napa,CA,Napa|00395
+Calhoun,MI,Battle Creek|00396
+Tazewell,IL,Peoria|00397
+Chautauqua,NY,Jamestown|00398
+Humboldt,CA,Eureka|00399
+Coconino,AZ,Flagstaff|00400
+Marathon,WI,Wausau|00401
+Orange,NC,Durham|00402
+Lebanon,PA,Lebanon|00403
+Douglas,GA,Atlanta|00404
+Madison,IN,Anderson|00405
+Rapides,LA,Alexandria|00406
+Taylor,TX,Abilene|00407
+Wichita,TX,Wichita Falls|00408
+Cochise,AZ,Sierra Vista|00409
+Black Hawk,IA,Waterloo|00410
+Johnson,IA,Iowa City|00411
+Scott,MN,Minneapolis-St Paul|00412
+Stafford,VA,Washington|00413
+Hunterdon,NJ,New York|00414
+Livingston,LA,Baton Rouge|00415
+Coweta,GA,Atlanta|00416
+Blair,PA,Altoona|00417
+Washington,RI,Providence|00418
+Sebastian,AR,Fort Smith|00419
+Wood,OH,Toledo|00420
+Richland,OH,Mansfield|00421
+Comanche,OK,Lawton|00422
+Columbia,GA,Augusta|00423
+Strafford,NH,Boston|00424
+Blount,TN,Knoxville|00425
+Washington,TN,Johnson City|00426
+Spotsylvania,VA,Washington|00427
+Oswego,NY,Syracuse|00428
+Tangipahoa,LA,Hammond|00429
+Grayson,TX,Sherman|00430
+Randall,TX,Amarillo|00431
+Pickens,SC,Greenville|00432
+Boone,KY,Cincinnati|00433
+Windham,CT,Willimantic|00434
+Delaware,IN,Muncie|00435
+Jasper,MO,Joplin|00436
+Bossier,LA,Shreveport|00437
+Parker,TX,Dallas-Fort Worth|00438
+Skagit,WA,Mount Vernon|00439
+Clarke,GA,Athens|00440
+Linn,OR,Albany|00441
+Mercer,PA,Youngstown|00442
+Jefferson,NY,Watertown|00443
+Canadian,OK,Oklahoma City|00444
+Sheboygan,WI,Sheboygan|00445
+Kendall,IL,Chicago|00446
+Harnett,NC,Dunn|00447
+La Crosse,WI,La Crosse|00448
+Wayne,OH,Wooster|00449
+Wilson,TN,Nashville|00450
+Kankakee,IL,Kankakee|00451
+Faulkner,AR,Little Rock|00452
+Saint Lawrence,NY,Ogdensburg|00453
+Terrebonne,LA,Houma|00454
+Allegan,MI,Allegan|00455
+Douglas,KS,Lawrence|00456
+Carroll,GA,Atlanta|00457
+Clark,IN,Louisville/Jefferson County|00458
+Missoula,MT,Missoula|00459
+Lowndes,GA,Valdosta|00460
+Warren,NJ,Allentown|00461
+Comal,TX,San Antonio|00462
+Vigo,IN,Terre Haute|00463
+Columbiana,OH,East Liverpool|00464
+Bay,MI,Bay City|00465
+Eaton,MI,Lansing|00466
+Douglas,OR,Roseburg|00467
+Sumter,SC,Sumter|00468
+Navajo,AZ,Show Low|00469
+Brunswick,NC,Wilmington|00470
+Ascension,LA,Baton Rouge|00471
+Saline,AR,Little Rock|00472
+Henderson,NC,Asheville|00473
+Fayette,GA,Atlanta|00474
+Allen,OH,Lima|00475
+De Kalb,IL,Chicago|00476
+Saint Marys,MD,Lexington Park|00477
+Etowah,AL,Gadsden|00478
+Kaufman,TX,Dallas-Fort Worth|00479
+Whitfield,GA,Dalton|00480
+Miami,OH,Dayton|00481
+Cowlitz,WA,Longview|00482
+Walworth,WI,Whitewater|00483
+Fond du Lac,WI,Fond du Lac|00484
+Tompkins,NY,Ithaca|00485
+Ashtabula,OH,Ashtabula|00486
+Cecil,MD,Philadelphia|00487
+Bartow,GA,Atlanta|00488
+Lenawee,MI,Adrian|00489
+Hanover,VA,Richmond|00490
+Putnam,NY,New York|00491
+Yamhill,OR,Portland|00492
+Steuben,NY,Corning|00493
+Bradley,TN,Cleveland|00494
+Highlands,FL,Sebring|00495
+Nevada,CA,Truckee|00496
+Eau Claire,WI,Eau Claire|00497
+Wicomico,MD,Salisbury|00498
+Madison,TN,Jackson|00499
+Fairbanks North Star,AK,Fairbanks|00500
+Cape May,NJ,Ocean City|00501
+Roanoke City,VA,Roanoke|00502
+Lafourche,LA,Houma|00503
+Floyd,GA,Rome|00504
+Monongalia,WV,Morgantown|00505
+Flagler,FL,Palm Coast|00506
+Portsmouth City,VA,Virginia Beach|00507
+Sutter,CA,Yuba City|00508
+Dougherty,GA,Albany|00509
+Northumberland,PA,Sunbury|00510
+Dubuque,IA,Dubuque|00511
+Rockingham,NC,Greensboro|00512
+Sumter,FL,The Villages|00513
+Geauga,OH,Cleveland|00514
+Marshall,AL,Albertville|00515
+Tuscarawas,OH,New Philadelphia|00516
+Orangeburg,SC,Orangeburg|00517
+Roanoke,VA,Roanoke|00518
+Lawrence,PA,New Castle|00519
+Carver,MN,Minneapolis-St Paul|00520
+Flathead,MT,Kalispell|00521
+Burke,NC,Hickory|00522
+Campbell,KY,Cincinnati|00523
+Sevier,TN,Sevierville|00524
+Gallatin,MT,Bozeman|00525
+Grant,WA,Moses Lake|00526
+Grafton,NH,Lebanon|00527
+Matanuska Susitna,AK,Anchorage|00528
+Chemung,NY,Elmira|00529
+Dodge,WI,Beaver Dam|00530
+Calvert,MD,Washington|00531
+Sherburne,MN,Minneapolis-St Paul|00532
+Moore,NC,Southern Pines|00533
+Mendocino,CA,Ukiah|00534
+Wood,WV,Parkersburg|00535
+Rogers,OK,Tulsa|00536
+Ozaukee,WI,Milwaukee|00537
+Hunt,TX,Dallas-Fort Worth|00538
+Benton,OR,Corvallis|00539
+Rockdale,GA,Atlanta|00540
+Saint Croix,WI,Minneapolis-St Paul|00541
+Walton,GA,Atlanta|00542
+Jefferson,WI,Watertown|00543
+Saint Clair,AL,Birmingham|00544
+Lee,MS,Tupelo|00545
+Newport,RI,Providence|00546
+Howard,IN,Kokomo|00547
+Josephine,OR,Grants Pass|00548
+Clinton,NY,Plattsburgh|00549
+Manitowoc,WI,Manitowoc|00550
+Burleigh,ND,Bismarck|00551
+Maury,TN,Columbia|00552
+Cullman,AL,Cullman|00553
+Cattaraugus,NY,Olean|00554
+Cayuga,NY,Auburn|00555
+Glynn,GA,Brunswick|00556
+Scioto,OH,Portsmouth|00557
+Island,WA,Oak Harbor|00558
+Rockwall,TX,Dallas-Fort Worth|00559
+Frederick,VA,Winchester|00560
+Lincoln,NC,Lincolnton|00561
+Franklin,WA,Kennewick|00562
+Somerset,PA,Somerset|00563
+Kosciusko,IN,Warsaw|00564
+Cheshire,NH,Keene|00565
+Erie,OH,Sandusky|00566
+Bartholomew,IN,Columbus|00567
+Lancaster,SC,Lancaster|00568
+Valencia,NM,Albuquerque|00569
+Van Buren,MI,Kalamazoo|00570
+Umatilla,OR,Pendleton|00571
+Lewis,WA,Centralia|00572
+Natrona,WY,Casper|00573
+Polk,OR,Salem|00574
+Clinton,MI,Lansing|00575
+Anderson,TN,Knoxville|00576
+Allegany,MD,Cumberland|00577
+Forrest,MS,Hattiesburg|00578
+Wood,WI,Marshfield|00579
+Floyd,IN,Louisville/Jefferson County|00580
+Putnam,FL,Palatka|00581
+Oconee,SC,Seneca|00582
+Bastrop,TX,Austin|00583
+Christian,KY,Clarksville|00584
+Madison,NY,Syracuse|00585
+Nassau,FL,Jacksonville|00586
+Monroe,FL,Key West|00587
+Wagoner,OK,Tulsa|00588
+Grays Harbor,WA,Aberdeen|00589
+Chelan,WA,Wenatchee|00590
+Putnam,TN,Cookeville|00591
+Yuba,CA,Yuba City|00592
+Muskogee,OK,Muskogee|00593
+Shiawassee,MI,Owosso|00594
+Belmont,OH,Wheeling|00595
+Bulloch,GA,Statesboro|00596
+Grant,IN,Marion|00597
+Hancock,IN,Indianapolis|00598
+Creek,OK,Tulsa|00599
+Pottawatomie,OK,Shawnee|00600
+Barrow,GA,Atlanta|00601
+Armstrong,PA,Pittsburgh|00602
+Wayne,IN,Richmond|00603
+Morgan,IN,Indianapolis|00604
+Greene,TN,Greeneville|00605
+Walker,GA,Chattanooga|00606
+Darlington,SC,Florence|00607
+Lonoke,AR,Little Rock|00608
+Walker,TX,Huntsville|00609
+Rutherford,NC,Forest City|00610
+Jones,MS,Laurel|00611
+Columbia,FL,Lake City|00612
+Columbia,PA,Bloomsburg|00613
+Kauai,HI,Kapaa|00614
+Troup,GA,LaGrange|00615
+James City,VA,Virginia Beach|00616
+Grand Forks,ND,Grand Forks|00617
+Carteret,NC,Morehead City|00618
+Klamath,OR,Klamath Falls|00619
+Robertson,TN,Nashville|00620
+Dallas,IA,Des Moines|00621
+Salem,NJ,Philadelphia|00622
+Warren,NY,Glens Falls|00623
+York,VA,Virginia Beach|00624
+Livingston,NY,Rochester|00625
+Carbon,PA,Allentown|00626
+Fauquier,VA,Washington|00627
+Lake,CA,Clearlake|00628
+Catoosa,GA,Chattanooga|00629
+Ionia,MI,Grand Rapids|00630
+Chatham,NC,Durham|00631
+Tehama,CA,Red Bluff|00632
+Liberty,GA,Hinesville|00633
+Lewis and Clark,MT,Helena|00634
+Washington,NY,Glens Falls|00635
+Coos,OR,Coos Bay|00636
+Hamblen,TN,Morristown|00637
+Lawrence,OH,Huntington|00638
+Otsego,NY,Oneonta|00639
+Sauk,WI,Baraboo|00640
+Kershaw,SC,Columbia|00641
+Ward,ND,Minot|00642
+Rutland,VT,Rutland|00643
+Saint Joseph,MI,Sturgis|00644
+Tipton,TN,Memphis|00645
+Sandusky,OH,Fremont|00646
+Mason,WA,Shelton|00647
+Franklin,NC,Raleigh|00648
+Stanly,NC,Albemarle|00649
+Jackson,GA,|00650
+Georgetown,SC,Georgetown|00651
+Belknap,NH,Laconia|00652
+Genesee,NY,Batavia|00653
+Warrick,IN,Evansville|00654
+Huron,OH,Norwalk|00655
+Barry,MI,Grand Rapids|00656
+Wise,TX,Dallas-Fort Worth|00657
+Clay,MN,Fargo|00658
+Walla Walla,WA,Walla Walla|00659
+Duplin,NC,|00660
+Tooele,UT,Salt Lake City|00661
+Lee,NC,Sanford|00662
+Carter,TN,Johnson City|00663
+Hawkins,TN,Kingsport|00664
+Columbia,WI,Madison|00665
+Seneca,OH,Tiffin|00666
+Windsor,VT,Lebanon|00667
+Boone,IN,Indianapolis|00668
+Edgecombe,NC,Rocky Mount|00669
+Marion,WV,Fairmont|00670
+Garfield,CO,|00671
+Franklin,VA,Roanoke|00672
+Broomfield,CO,Denver|00673
+Pearl River,MS,Picayune|00674
+Lamar,MS,Hattiesburg|00675
+Kenai Peninsula,AK,|00676
+Tuolumne,CA,Phoenix Lake|00677
+Cherokee,SC,Gaffney|00678
+Carson City,NV,Carson City|00679
+San Benito,CA,San Jose|00680
+Gordon,GA,Calhoun|00681
+Walton,FL,|00682
+Venango,PA,Oil City|00683
+Maverick,TX,Eagle Pass|00684
+Roane,TN,Harriman|00685
+Boone,IL,Rockford|00686
+Gila,AZ,Payson|00687
+Rusk,TX,Longview|00688
+Knox,IL,Galesburg|00689
+Coffee,TN,Tullahoma|00690
+Saint Charles,LA,New Orleans|00691
+Lincoln,MO,St. Louis|00692
+Waupaca,WI,|00693
+Vernon,LA,Fort Polk South|00694
+Union,OH,Columbus|00695
+Cass,MI,South Bend|00696
+McMinn,TN,Athens|00697
+Effingham,GA,Savannah|00698
+Pender,NC,Wilmington|00699
+Eagle,CO,Edwards|00700
+Lyon,NV,Fernley|00701
+Franklin,NY,Malone|00702
+Worcester,MD,Ocean Pines|00703
+Jefferson,TN,Morristown|00704
+La Plata,CO,Durango|00705
+Hood,TX,Granbury|00706
+Tioga,NY,Binghamton|00707
+Watauga,NC,Boone|00708
+Cherokee,TX,Jacksonville|00709
+Camden,GA,St. Marys|00710
+Henry,IL,Davenport|00711
+Chenango,NY,|00712
+Grundy,IL,Chicago|00713
+Dearborn,IN,Cincinnati|00714
+Coffee,AL,Enterprise|00715
+Bristol,RI,Providence|00716
+Jackson,FL,|00717
+Gibson,TN,Humboldt|00718
+Dickson,TN,Nashville|00719
+Henry,IN,New Castle|00720
+Shelby,OH,Sidney|00721
+Columbia,OR,Portland|00722
+Cortland,NY,Cortland|00723
+Calumet,WI,Appleton|00724
+Allegany,NY,|00725
+Jessamine,KY,Lexington|00726
+Loudon,TN,Knoxville|00727
+Laurens,GA,Dublin|00728
+Carroll,NH,|00729
+Queen Annes,MD,Baltimore|00730
+Franklin,VT,Burlington|00731
+Navarro,TX,Corsicana|00732
+Noble,IN,Kendallville|00733
+Santa Cruz,AZ,Nogales|00734
+Stokes,NC,Winston-Salem|00735
+Lafayette,MS,Oxford|00736
+Washington,LA,Bogalusa|00737
+Marshall,IN,Plymouth|00738
+Douglas,NV,Gardnerville Ranchos|00739
+Fremont,CO,Canon City|00740
+Culpeper,VA,Culpeper|00741
+Gadsden,FL,Tallahassee|00742
+Warren,IA,Des Moines|00743
+Lawrence,IN,Bedford|00744
+Lincoln,OR,|00745
+Medina,TX,San Antonio|00746
+Perry,PA,Harrisburg|00747
+Auglaize,OH,Wapakoneta|00748
+Saint John the Baptist,LA,New Orleans|00749
+Logan,OH,Bellefontaine|00750
+Calaveras,CA,|00751
+Bedford,TN,Shelbyville|00752
+Siskiyou,CA,|00753
+Brown,OH,Cincinnati|00754
+Monroe,TN,|00755
+Shelby,IN,Indianapolis|00756
+Nye,NV,Pahrump|00757
+Sullivan,NH,Claremont|00758
+Habersham,GA,Cornelia|00759
+Orleans,NY,Rochester|00760
+Mecosta,MI,Big Rapids|00761
+Wayne,WV,Huntington|00762
+Jackson,IN,Seymour|00763
+Coffee,GA,Douglas|00764
+Preble,OH,Dayton|00765
+De Kalb,IN,Auburn|00766
+Wyoming,NY,|00767
+Clinton,OH,Wilmington|00768
+Dubois,IN,Jasper|00769
+Lawrence,TN,Lawrenceburg|00770
+Logan,OK,Oklahoma City|00771
+Marinette,WI,Marinette|00772
+Suwannee,FL,|00773
+Polk,GA,Cedartown|00774
+Ottawa,OH,Toledo|00775
+Montrose,CO,Montrose|00776
+Davie,NC,Winston-Salem|00777
+Franklin,TN,Tullahoma|00778
+Kittitas,WA,Ellensburg|00779
+Mercer,OH,Celina|00780
+Levy,FL,|00781
+Campbell,TN,La Follette|00782
+Des Moines,IA,Burlington|00783
+Jackson,NC,|00784
+Champaign,OH,Urbana|00785
+Okeechobee,FL,Okeechobee|00786
+Warren,TN,McMinnville|00787
+Murray,GA,Dalton|00788
+Natchitoches,LA,Natchitoches|00789
+Essex,NY,|00790
+Harrison,IN,Louisville/Jefferson County|00791
+Nez Perce,ID,Lewiston|00792
+Hendry,FL,Clewiston|00793
+Cheatham,TN,Nashville|00794
+Cass,IN,Logansport|00795
+Colleton,SC,Walterboro|00796
+Woodford,IL,Peoria|00797
+Knox,IN,Vincennes|00798
+Douglas,WA,Wenatchee|00799
+Fayette,TN,Memphis|00800
+Yadkin,NC,Winston-Salem|00801
+Dyer,TN,Dyersburg|00802
+Montgomery,IN,Crawfordsville|00803
+Brown,TX,Brownwood|00804
+Putnam,IN,Indianapolis|00805
+Manassas City,VA,Washington|00806
+Talbot,MD,Easton|00807
+Clinton,IL,St. Louis|00808
+Williams,OH,|00809
+Warren,VA,Washington|00810
+Graham,AZ,Safford|00811
+Marshall,MS,Memphis|00812
+Lagrange,IN,|00813
+Huntington,IN,Huntington|00814
+Alcorn,MS,Corinth|00815
+Clatsop,OR,Astoria|00816
+Miami,IN,Peru|00817
+Addison,VT,|00818
+Matagorda,TX,Bay City|00819
+Saint Bernard,LA,New Orleans|00820
+Cocke,TN,Newport|00821
+Seneca,NY,Seneca Falls|00822
+Weakley,TN,Martin|00823
+Lassen,CA,Susanville|00824
+Lincoln,MS,Brookhaven|00825
+De Soto,FL,Arcadia|00826
+Morrow,OH,Columbus|00827
+McClain,OK,Oklahoma City|00828
+Adams,IN,Decatur|00829
+Steuben,IN,Angola|00830
+Bolivar,MS,Cleveland|00831
+Washington,TX,Brenham|00832
+Gibson,IN,Evansville|00833
+Orange,VA,|00834
+Jasper,IN,Chicago|00835
+Lincoln,TN,|00836
+Whitley,IN,Fort Wayne|00837
+Clinton,IN,Frankfort|00838
+Greene,IN,Bloomington|00839
+Louisa,VA,Richmond|00840
+Botetourt,VA,Roanoke|00841
+Marshall,WV,Wheeling|00842
+Transylvania,NC,Brevard|00843
+Caroline,MD,|00844
+Coos,NH,Berlin|00845
+Monroe,IL,St. Louis|00846
+Wabash,IN,Wabash|00847
+Oconee,GA,Athens|00848
+Schoharie,NY,Albany|00849
+Dorchester,MD,Cambridge|00850
+Jefferson,IN,Madison|00851
+Henry,TN,Paris|00852
+Claiborne,TN,|00853
+Harris,GA,Columbus|00854
+Bee,TX,Beeville|00855
+Rhea,TN,|00856
+Obion,TN,Union City|00857
+Daviess,IN,Washington|00858
+Juneau,AK,Juneau|00859
+Delta,CO,|00860
+Wakulla,FL,Tallahassee|00861
+Hancock,WV,Weirton|00862
+Marshall,TN,Lewisburg|00863
+Bryan,GA,Savannah|00864
+Garrett,MD,|00865
+Jefferson,WA,|00866
+Neshoba,MS,|00867
+Giles,TN,|00868
+Orange,VT,Lebanon|00869
+Carroll,OH,Canton|00870
+Ripley,IN,|00871
+Jones,GA,Macon|00872
+Caroline,VA,Richmond|00873
+Jennings,IN,North Vernon|00874
+Carroll,TN,|00875
+Lee,GA,Albany|00876
+Gilmer,GA,|00877
+Washington,IN,Louisville/Jefferson County|00878
+Marion,TN,Chattanooga|00879
+Henry,OH,|00880
+Morgan,CO,Fort Morgan|00881
+Glenn,CA,|00882
+Madison,GA,Athens|00883
+Lauderdale,TN,|00884
+Henderson,TN,|00885
+Hardee,FL,Wauchula|00886
+Wells,IN,Fort Wayne|00887
+Orleans,VT,|00888
+Upson,GA,Thomaston|00889
+White,GA,|00890
+Clay,IN,Terre Haute|00891
+Somerset,MD,Salisbury|00892
+Monroe,GA,Macon|00893
+McNairy,TN,|00894
+Hardin,TN,|00895
+Posey,IN,Evansville|00896
+White,TN,|00897
+Decatur,IN,Greensburg|00898
+Montezuma,CO,|00899
+Randolph,MO,Moberly|00900
+Yates,NY,|00901
+Tillamook,OR,|00902
+Churchill,NV,Fallon|00903
+Lincoln,KY,Danville|00904
+Hickman,TN,Nashville|00905
+White,IN,|00906
+Fredericksburg City,VA,Washington|00907
+Scott,IN,Scottsburg|00908
+West Baton Rouge,LA,Baton Rouge|00909
+Fannin,GA,|00910
+King George,VA,|00911
+Wasatch,UT,Heber|00912
+Routt,CO,|00913
+Limestone,TX,|00914
+Starke,IN,|00915
+Teller,CO,Colorado Springs|00916
+Burke,GA,Augusta|00917
+Franklin,IN,Cincinnati|00918
+Elbert,CO,Denver|00919
+Logan,CO,Sterling|00920
+Fairfax City,VA,Washington|00921
+Jerome,ID,Twin Falls|00922
+Dawson,GA,Atlanta|00923
+Macon,TN,Nashville|00924
+Overton,TN,Cookeville|00925
+Morgan,TN,|00926
+McDuffie,GA,Augusta|00927
+Dodge,GA,|00928
+Goochland,VA,Richmond|00929
+Asotin,WA,Lewiston|00930
+Owen,IN,Bloomington|00931
+Sullivan,IN,Terre Haute|00932
+Colusa,CA,|00933
+Union,GA,|00934
+Jay,IN,|00935
+Putnam,GA,|00936
+Spencer,IN,|00937
+Fulton,IN,|00938
+Saunders,NE,Omaha|00939
+Kewaunee,WI,Green Bay|00940
+La Paz,AZ,|00941
+Washington,NE,Omaha|00942
+Kent,MD,|00943
+Carroll,IN,Lafayette|00944
+Orange,IN,|00945
+Crawford,IL,|00946
+Lampasas,TX,Killeen|00947
+Smith,TN,Nashville|00948
+Union,TN,Knoxville|00949
+Dekalb,TN,|00950
+Inyo,CA,Bishop|00951
+Humphreys,TN,|00952
+Schuyler,NY,|00953
+Unicoi,TN,Johnson City|00954
+Mariposa,CA,|00955
+Johnson,TN,|00956
+Pike,GA,Atlanta|00957
+Morgan,GA,|00958
+Rush,IN,|00959
+Parke,IN,|00960
+Fountain,IN,|00961
+Pitkin,CO,|00962
+Chester,TN,Jackson|00963
+Wayne,TN,|00964
+Gilchrist,FL,Gainesville|00965
+Polk,TN,Cleveland|00966
+Benton,TN,|00967
+Dixie,FL,|00968
+Kanabec,MN,|00969
+Vermillion,IN,Terre Haute|00970
+Park,CO,Denver|00971
+Tipton,IN,Kokomo|00972
+Gulf,FL,|00973
+San Juan,WA,|00974
+Gunnison,CO,|00975
+Brown,IN,Indianapolis|00976
+Oglethorpe,GA,Athens|00977
+Crockett,TN,|00978
+Manassas Park City,VA,Washington|00979
+Newton,IN,Chicago|00980
+Cannon,TN,Nashville|00981
+Cass,IL,|00982
+Kodiak Island,AK,Kodiak|00983
+Vinton,OH,|00984
+Pulaski,IN,|00985
+Stewart,TN,Clarksville|00986
+Pike,IN,Jasper|00987
+Blackford,IN,|00988
+Camp,TX,|00989
+Falls Church City,VA,Washington|00990
+Greensville,VA,|00991
+Blaine,OK,|00992
+Decatur,TN,|00993
+Jackson,TN,Cookeville|00994
+Franklin,FL,|00995
+Lowndes,AL,Montgomery|00996
+Boundary,ID,|00997
+Crawford,IN,|00998
+Switzerland,IN,|00999
+Martin,IN,|01000
+Teton,ID,Jackson|01001
+Clear Creek,CO,Denver|01002
+Benton,IN,Lafayette|01003
+Warren,IN,|01004
+Conejos,CO,|01005
+Monroe,IA,|01006
+Trousdale,TN,Nashville|01007
+Lafayette,AR,|01008
+Jefferson,NE,|01009
+Union,IN,|01010
+Ohio,IN,Cincinnati|01011
+Pickett,TN,|01012
+Morrill,NE,|01013
+Hamilton,NY,|01014
+Grant,OK,|01015
+Columbia,WA,|01016
+Storey,NV,Reno|01017
+Nance,NE,|01018
+Sierra,CA,|01019
+Erie,NY,Buffalo|01020
+Denton,TX,Dallas-Fort Worth|01021
+Cameron,TX,Brownsville|01022
+Merced,CA,Merced|01023
+Washington,WI,Milwaukee|01024
+Bonneville,ID,Idaho Falls|01025
+Haywood,NC,Asheville|01026
+Hall,NE,Grand Island|01027
+Macon,NC,|01028
+Rappahannock,VA,|01029
+Webb,TX,Laredo|01030
+Saint Tammany,LA,New Orleans|01031
+Gregg,TX,Longview|01032
+Tom Green,TX,San Angelo|01033
+Newton,GA,Atlanta|01034
+Caldwell,NC,Hickory|01035
+Henderson,TX,Athens|01036
+Harrison,WV,Clarksburg|01037
+Cumberland,TN,Crossville|01038
+Lamar,TX,Paris|01039
+Douglas,WI,Duluth|01040
+Baxter,AR,Mountain Home|01041
+Tift,GA,Tifton|01042
+Cooke,TX,Gainesville|01043
+Amador,CA,|01044
+Green,WI,Monroe|01045
+Fannin,TX,Bonham|01046
+Lumpkin,GA,|01047
+Grant,NM,Silver City|01048
+Aransas,TX,Corpus Christi|01049
+Paulding,OH,|01050
+Dawes,NE,|01051
+Indiana,PA,Indiana|01052
+Angelina,TX,Lufkin|01053
+Clearfield,PA,DuBois|01054
+Vermilion,IL,Danville|01055
+Wilson,NC,Wilson|01056
+Coryell,TX,Killeen|01057
+Iberia,LA,New Iberia|01058
+Spalding,GA,Atlanta|01059
+Chippewa,WI,Eau Claire|01060
+Washington,VT,Barre|01061
+Blount,AL,Birmingham|01062
+Halifax,NC,|01063
+Colquitt,GA,Moultrie|01064
+Windham,VT,|01065
+Shawano,WI,|01066
+Wharton,TX,El Campo|01067
+Ware,GA,Waycross|01068
+Scotland,NC,Laurinburg|01069
+Jasper,TX,|01070
+Hopkins,TX,Sulphur Springs|01071
+Hot Spring,AR,|01072
+Wayne,GA,Jesup|01073
+Pickens,GA,Atlanta|01074
+Haralson,GA,Atlanta|01075
+Del Norte,CA,Crescent City|01076
+Hardeman,TN,|01077
+Dickinson,MI,Iron Mountain|01078
+Ouachita,AR,Camden|01079
+Lamoille,VT,|01080
+Meigs,OH,|01081
+Grainger,TN,Morristown|01082
+Newton,MS,|01083
+Elbert,GA,|01084
+Plumas,CA,|01085
+Freestone,TX,|01086
+Fentress,TN,|01087
+Seward,NE,Lincoln|01088
+Mono,CA,|01089
+Sequatchie,TN,Chattanooga|01090
+Lewis,TN,|01091
+Meigs,TN,|01092
+Skamania,WA,Portland|01093
+Nash,NC,Rocky Mount|01094
+Victoria,TX,Victoria|01095
+Orange,TX,Beaumont|01096
+Cascade,MT,Great Falls|01097
+Darke,OH,Greenville|01098
+Hillsdale,MI,|01099
+McDowell,NC,|01100
+Thomas,GA,Thomasville|01101
+Waller,TX,Houston|01102
+Tioga,PA,|01103
+Warren,PA,Warren|01104
+Hale,TX,Plainview|01105
+Hill,TX,|01106
+Lincoln,OK,Oklahoma City|01107
+Hocking,OH,|01108
+Stephens,GA,Toccoa|01109
+Hart,GA,|01110
+Taylor,KY,Campbellsville|01111
+Butts,GA,Atlanta|01112
+Adair,OK,|01113
+Curry,OR,Brookings|01114
+Crook,OR,Prineville|01115
+Morgan,WV,Hagerstown|01116
+Dade,GA,Chattanooga|01117
+Greene,GA,|01118
+Perry,MS,Hattiesburg|01119
+Richardson,NE,|01120
+Johnson,NE,|01121
+Nuckolls,NE,|01122
+Kimball,NE,|01123
+Webster,NE,|01124
+Nueces,TX,Corpus Christi|01125
+Smith,TX,Tyler|01126
+Platte,MO,Kansas City|01127
+Tazewell,VA,Bluefield|01128
+Pasquotank,NC,Elizabeth City|01129
+Kendall,TX,San Antonio|01130
+Poweshiek,IA,|01131
+Lexington City,VA,|01132
+Adams,NE,Hastings|01133
+Decatur,GA,Bainbridge|01134
+Chattooga,GA,Summerville|01135
+Jones,NC,New Bern|01136
+Elmore,AL,Montgomery|01137
+Baldwin,GA,Milledgeville|01138
+Edgefield,SC,Augusta|01139
+Henry,KY,Louisville/Jefferson County|01140
+Ketchikan Gateway,AK,|01141
+Barren,KY,Glasgow|01142
+Chippewa,MI,Sault Ste. Marie|01143
+Newberry,SC,Newberry|01144
+Bennington,VT,Bennington|01145
+Whitley,KY,Corbin|01146
+Howard,TX,Big Spring|01147
+Titus,TX,Mount Pleasant|01148
+Meriwether,GA,Atlanta|01149
+Phillips,AR,Helena|01150
+Madison,AR,Fayetteville|01151
+Heard,GA,Atlanta|01152
+Cumberland,IL,Charleston|01153
+Scott,IL,Jacksonville|01154
+Quitman,GA,Eufaula|01155
+Ouachita,LA,Monroe|01156
+Saint Landry,LA,Opelousas|01157
+Muscatine,IA,Muscatine|01158
+Perry,OH,|01159
+Jackson,OH,|01160
+Cherokee,AL,|01161
+Fayette,IN,Connersville|01162
+Ogemaw,MI,|01163
+Jefferson,IA,|01164
+Grundy,TN,|01165
+Bledsoe,TN,|01166
+Towns,GA,|01167
+Perry,TN,|01168
+Clay,TN,|01169
+Chase,NE,|01170
+Harris,TX,Houston|01171
+Tarrant,TX,Dallas-Fort Worth|01172
+Bexar,TX,San Antonio|01173
+Travis,TX,Austin|01174
+Marion,IN,Indianapolis|01175
+El Paso,TX,El Paso|01176
+Collin,TX,Dallas-Fort Worth|01177
+Hidalgo,TX,McAllen|01178
+Jackson,MO,Kansas City|01179
+Fort Bend,TX,Houston|01180
+Bristol,MA,Providence|01181
+Johnson,KS,Kansas City|01182
+Lake,IN,Chicago|01183
+Montgomery,TX,Houston|01184
+East Baton Rouge,LA,Baton Rouge|01185
+Williamson,TX,Austin|01186
+Richland,SC,Columbia|01187
+Brazoria,TX,Houston|01188
+Dutchess,NY,Poughkeepsie|01189
+Anchorage,AK,Anchorage|01190
+Galveston,TX,Houston|01191
+Cumberland,ME,Portland|01192
+Lubbock,TX,Lubbock|01193
+Hamilton,IN,Indianapolis|01194
+Horry,SC,Myrtle Beach|01195
+Caddo,LA,Shreveport|01196
+Jefferson,TX,Beaumont|01197
+Hinds,MS,Jackson|01198
+Norfolk City,VA,Virginia Beach|01199
+McLennan,TX,Waco|01200
+Lafayette,LA,Lafayette|01201
+Sussex,DE,Seaford|01202
+York,ME,Portland|01203
+Brazos,TX,College Station|01204
+Harrison,MS,Gulfport|01205
+Minnehaha,SD,Sioux Falls|01206
+Licking,OH,Columbus|01207
+Hays,TX,Austin|01208
+Centre,PA,State College|01209
+Penobscot,ME,Bangor|01210
+Stearns,MN,St. Cloud|01211
+Schuylkill,PA,Pottsville|01212
+Olmsted,MN,Rochester|01213
+Rankin,MS,Jackson|01214
+Lee,AL,Auburn|01215
+Jackson,MS,Pascagoula|01216
+Kootenai,ID,Coeur d'Alene|01217
+Ector,TX,Odessa|01218
+Robeson,NC,Lumberton|01219
+Sandoval,NM,Albuquerque|01220
+Guadalupe,TX,San Antonio|01221
+San Juan,NM,Farmington|01222
+Wright,MN,Minneapolis-St Paul|01223
+Wayne,NC,Goldsboro|01224
+Kennebec,ME,Augusta|01225
+Potter,TX,Amarillo|01226
+Morgan,AL,Decatur|01227
+Calhoun,AL,Anniston|01228
+Lycoming,PA,Williamsport|01229
+La Salle,IL,Ottawa|01230
+Warren,KY,Bowling Green|01231
+La Porte,IN,Michigan City|01232
+Macon,IL,Decatur|01233
+Ontario,NY,Rochester|01234
+Hardin,KY,Elizabethtown|01235
+Berkeley,WV,Hagerstown|01236
+Craven,NC,New Bern|01237
+Woodbury,IA,Sioux City|01238
+Houston,AL,Dothan|01239
+Franklin,MO,St. Louis|01240
+Adams,PA,Gettysburg|01241
+Albemarle,VA,Charlottesville|01242
+Cleveland,NC,Shelby|01243
+Daviess,KY,Owensboro|01244
+Craighead,AR,Jonesboro|01245
+Cabell,WV,Huntington|01246
+Garland,AR,Hot Springs|01247
+Madison,MS,Jackson|01248
+Montgomery,VA,Blacksburg|01249
+Wayne,NY,Rochester|01250
+Pottawattamie,IA,Omaha|01251
+Lauderdale,AL,Florence|01252
+Laramie,WY,Cheyenne|01253
+Story,IA,Ames|01254
+Crawford,PA,Meadville|01255
+Lapeer,MI,Detroit|01256
+Grand Traverse,MI,Traverse City|01257
+Muskingum,OH,Zanesville|01258
+Suffolk City,VA,Virginia Beach|01259
+Midland,MI,Midland|01260
+Madison,KY,Richmond|01261
+Bannock,ID,Pocatello|01262
+Talladega,AL,Talladega|01263
+Lauderdale,MS,Meridian|01264
+Raleigh,WV,Beckley|01265
+Ross,OH,Chillicothe|01266
+Sullivan,NY,|01267
+Jefferson,AR,Pine Bluff|01268
+Payne,OK,Stillwater|01269
+Twin Falls,ID,Twin Falls|01270
+White,AR,Searcy|01271
+Leavenworth,KS,Kansas City|01272
+Cole,MO,Jefferson City|01273
+Cape Girardeau,MO,Cape Girardeau|01274
+Liberty,TX,Houston|01275
+Lynchburg City,VA,Lynchburg|01276
+Hancock,OH,Findlay|01277
+Bullitt,KY,Louisville/Jefferson County|01278
+Augusta,VA,Staunton|01279
+Surry,NC,Mount Airy|01280
+Aroostook,ME,|01281
+Apache,AZ,|01282
+McKinley,NM,Gallup|01283
+Clallam,WA,Port Angeles|01284
+Franklin,MA,Springfield|01285
+Riley,KS,Manhattan|01286
+De Kalb,AL,Fort Payne|01287
+Isabella,MI,Mount Pleasant|01288
+Jefferson,OH,Weirton|01289
+Wilkes,NC,North Wilkesboro|01290
+Bedford,VA,Lynchburg|01291
+Adams,IL,Quincy|01292
+Marquette,MI,Marquette|01293
+Walker,AL,Birmingham|01294
+Laurens,SC,Greenville|01295
+Marion,OH,Marion|01296
+Williamson,IL,Marion|01297
+Chaves,NM,Roswell|01298
+Harrison,TX,Marshall|01299
+McCracken,KY,Paducah|01300
+Pike,KY,|01301
+San Patricio,TX,Corpus Christi|01302
+Athens,OH,Athens|01303
+Lea,NM,Hobbs|01304
+Nacogdoches,TX,Nacogdoches|01305
+Herkimer,NY,Utica|01306
+Reno,KS,Hutchinson|01307
+Rice,MN,Faribault|01308
+Blue Earth,MN,Mankato|01309
+Otero,NM,Alamogordo|01310
+Pittsylvania,VA,Danville|01311
+Sampson,NC,|01312
+Montcalm,MI,|01313
+Columbia,NY,Hudson|01314
+Pulaski,KY,Somerset|01315
+Bradford,PA,Sayre|01316
+Crow Wing,MN,Brainerd|01317
+Mercer,WV,Bluefield|01318
+Crawford,AR,Fort Smith|01319
+Washington,OH,Parkersburg|01320
+Acadia,LA,Crowley|01321
+Pope,AR,Russellville|01322
+Starr,TX,Rio Grande City|01323
+Knox,OH,Mount Vernon|01324
+Garfield,OK,Enid|01325
+Oldham,KY,Louisville/Jefferson County|01326
+Jackson,IL,Carbondale|01327
+Granville,NC,|01328
+Lowndes,MS,Columbus|01329
+Lenoir,NC,Kinston|01330
+Laurel,KY,London|01331
+Whiteside,IL,Sterling|01332
+Anderson,TX,Palestine|01333
+Newton,MO,Joplin|01334
+Columbus,NC,|01335
+Vermilion,LA,Abbeville|01336
+Oxford,ME,|01337
+Pike,PA,New York|01338
+Otter Tail,MN,Fergus Falls|01339
+Tuscola,MI,|01340
+Pickaway,OH,Columbus|01341
+Saline,KS,Salina|01342
+Fulton,NY,Gloversville|01343
+Putnam,WV,Charleston|01344
+Washington,VA,Kingsport|01345
+Campbell,VA,Lynchburg|01346
+Saint Mary,LA,Morgan City|01347
+Hardin,TX,Beaumont|01348
+Autauga,AL,Montgomery|01349
+Colbert,AL,Florence|01350
+Henry,VA,Martinsville|01351
+Chisago,MN,Minneapolis-St Paul|01352
+Coles,IL,Charleston|01353
+Eddy,NM,Carlsbad|01354
+Jefferson,WV,Washington|01355
+Ogle,IL,Rochelle|01356
+Jackson,AL,Scottsboro|01357
+Russell,AL,Columbus|01358
+Wayne,PA,|01359
+Johnson,MO,Warrensburg|01360
+Van Zandt,TX,|01361
+Grady,OK,Oklahoma City|01362
+Pulaski,MO,Fort Leonard Wood|01363
+Somerset,ME,|01364
+Saint Martin,LA,Lafayette|01365
+Winona,MN,Winona|01366
+Grant,WI,Platteville|01367
+Washington,MS,Greenville|01368
+Washington,OK,Bartlesville|01369
+Crittenden,AR,Memphis|01370
+LeFlore,OK,Fort Smith|01371
+Dale,AL,Enterprise|01372
+Montgomery,NY,Amsterdam|01373
+Box Elder,UT,Brigham City|01374
+Bedford,PA,|01375
+Kerr,TX,Kerrville|01376
+Boyd,KY,Huntington|01377
+Franklin,KY,Frankfort|01378
+Greene,NY,|01379
+Clinton,IA,Clinton|01380
+Harrisonburg City,VA,Harrisonburg|01381
+Val Verde,TX,Del Rio|01382
+Elko,NV,Elko|01383
+Warren,MS,Vicksburg|01384
+Newaygo,MI,Grand Rapids|01385
+Delaware,NY,|01386
+Macoupin,IL,St. Louis|01387
+Beaufort,NC,Washington|01388
+Carter,OK,Ardmore|01389
+Osage,OK,Tulsa|01390
+Scott,KY,Lexington|01391
+Cherokee,OK,Tahlequah|01392
+Hoke,NC,Fayetteville|01393
+Hopkins,KY,Madisonville|01394
+Lincoln,LA,Ruston|01395
+Mifflin,PA,Lewistown|01396
+Kay,OK,Ponca City|01397
+Mississippi,AR,Blytheville|01398
+Henderson,KY,Evansville|01399
+Goodhue,MN,Red Wing|01400
+Iron,UT,Cedar City|01401
+Campbell,WY,Gillette|01402
+Fayette,WV,Oak Hill|01403
+Huntingdon,PA,Huntingdon|01404
+Barron,WI,|01405
+Pittsburg,OK,McAlester|01406
+Vance,NC,Henderson|01407
+Polk,TX,|01408
+Branch,MI,Coldwater|01409
+Jefferson,PA,|01410
+Phelps,MO,Rolla|01411
+Itasca,MN,|01412
+Stephens,OK,Duncan|01413
+Whitman,WA,Pullman|01414
+Monroe,WI,|01415
+Ohio,WV,Wheeling|01416
+Beltrami,MN,Bemidji|01417
+Callaway,MO,Jefferson City|01418
+Polk,WI,|01419
+Cerro Gordo,IA,Mason City|01420
+Camden,MO,|01421
+Hancock,MS,Gulfport|01422
+Dunn,WI,Menomonie|01423
+Dallas,AL,Selma|01424
+Sweetwater,WY,Rock Springs|01425
+Crawford,OH,Bucyrus|01426
+Highland,OH,|01427
+Stevens,WA,|01428
+Charlottesville City,VA,Charlottesville|01429
+Miller,AR,Texarkana|01430
+McKean,PA,Bradford|01431
+Nelson,KY,Louisville/Jefferson County|01432
+Madison,OH,Columbus|01433
+Susquehanna,PA,|01434
+Danville City,VA,Danville|01435
+Wilson,TX,San Antonio|01436
+Burnet,TX,|01437
+Fulton,OH,Toledo|01438
+Gratiot,MI,Alma|01439
+Bryan,OK,Durant|01440
+Sequoyah,OK,Fort Smith|01441
+Holmes,OH,|01442
+Kandiyohi,MN,Willmar|01443
+Greene,AR,Paragould|01444
+Shelby,KY,Louisville/Jefferson County|01445
+Avoyelles,LA,|01446
+Shenandoah,VA,|01447
+Wood,TX,|01448
+Union,AR,El Dorado|01449
+Tallapoosa,AL,Alexander City|01450
+Delaware,OK,|01451
+Wise,VA,|01452
+Mayes,OK,|01453
+Webster,LA,Minden|01454
+Okanogan,WA,|01455
+Pierce,WI,Minneapolis-St Paul|01456
+Bonner,ID,|01457
+Jim Wells,TX,Alice|01458
+Marshall,IA,Marshalltown|01459
+Pike,MS,McComb|01460
+Howell,MO,West Plains|01461
+Ravalli,MT,|01462
+Guernsey,OH,Cambridge|01463
+Okmulgee,OK,Tulsa|01464
+Clarion,PA,|01465
+Knox,ME,Rockland|01466
+Snyder,PA,Selinsgrove|01467
+Franklin,IL,|01468
+Person,NC,Durham|01469
+Floyd,KY,|01470
+Marion,IL,Centralia|01471
+Upshur,TX,Longview|01472
+Clinton,PA,Lock Haven|01473
+Mower,MN,Austin|01474
+Crawford,KS,Pittsburg|01475
+Defiance,OH,Defiance|01476
+Livingston,IL,Pontiac|01477
+Jefferson,IL,Mount Vernon|01478
+Waldo,ME,|01479
+Lawrence,MO,|01480
+Benton,MN,St. Cloud|01481
+Escambia,AL,|01482
+Caldwell,TX,Austin|01483
+Webster,IA,Fort Dodge|01484
+Erath,TX,Stephenville|01485
+Isanti,MN,Minneapolis-St Paul|01486
+Covington,AL,|01487
+Oconto,WI,Green Bay|01488
+Madison,ID,Rexburg|01489
+Pontotoc,OK,Ada|01490
+Latah,ID,Moscow|01491
+Alexander,NC,Hickory|01492
+Calloway,KY,Murray|01493
+Delta,MI,Escanaba|01494
+Fulton,IL,Canton|01495
+Monroe,MS,|01496
+Scotts Bluff,NE,Scottsbluff|01497
+Greenup,KY,Huntington|01498
+Boone,AR,Harrison|01499
+Coshocton,OH,Coshocton|01500
+Gloucester,VA,Virginia Beach|01501
+Jasper,IA,Newton|01502
+Finney,KS,Garden City|01503
+Dodge,NE,Fremont|01504
+McLeod,MN,Hutchinson|01505
+Independence,AR,Batesville|01506
+Houghton,MI,Houghton|01507
+Steele,MN,Owatonna|01508
+Summit,UT,Salt Lake City|01509
+Cowley,KS,Winfield|01510
+Albany,WY,Laramie|01511
+Lincoln,NE,North Platte|01512
+Halifax,VA,|01513
+Webster,MO,Springfield|01514
+Douglas,MN,Alexandria|01515
+Oneida,WI,|01516
+Lee,IA,Fort Madison|01517
+Prince George,VA,Richmond|01518
+Beauregard,LA,De Ridder|01519
+Wapello,IA,Ottumwa|01520
+Clark,KY,Lexington|01521
+Laclede,MO,Lebanon|01522
+Morgan,IL,Jacksonville|01523
+Greenbrier,WV,|01524
+Montgomery,KS,Coffeyville|01525
+Carlton,MN,Duluth|01526
+Sagadahoc,ME,Portland|01527
+Isle of Wight,VA,Virginia Beach|01528
+Chambers,TX,Houston|01529
+Bureau,IL,Ottawa|01530
+Clarendon,SC,|01531
+Pulaski,VA,Blacksburg|01532
+Christian,IL,Taylorville|01533
+Panola,MS,|01534
+Clark,WI,|01535
+Harvey,KS,Wichita|01536
+Putnam,OH,|01537
+Lincoln,ME,|01538
+Williamsburg,SC,|01539
+Geary,KS,Manhattan|01540
+Lawrence,AL,Decatur|01541
+Effingham,IL,Effingham|01542
+Chambers,AL,Valley|01543
+Silver Bow,MT,Butte|01544
+Evangeline,LA,|01545
+Dare,NC,Kill Devil Hills|01546
+Ford,KS,Dodge City|01547
+Lyon,KS,Emporia|01548
+Preston,WV,Morgantown|01549
+Morrison,MN,|01550
+Accomack,VA,|01551
+McCurtain,OK,|01552
+Chester,SC,Chester|01553
+Huron,MI,|01554
+Marion,SC,|01555
+Taos,NM,Taos|01556
+Pike,AL,Troy|01557
+Washington,ME,|01558
+Sumter,GA,Americus|01559
+Miami,KS,Kansas City|01560
+Wexford,MI,Cadillac|01561
+Nicollet,MN,Mankato|01562
+Mecklenburg,VA,|01563
+Emmet,MI,|01564
+Uintah,UT,Vernal|01565
+Becker,MN,|01566
+Petersburg City,VA,Richmond|01567
+Amherst,VA,Lynchburg|01568
+Leflore,MS,Greenwood|01569
+Adams,MS,Natchez|01570
+Platte,NE,Columbus|01571
+Smyth,VA,|01572
+Stone,MO,Branson|01573
+Dillon,SC,Dillon|01574
+Kleberg,TX,Kingsville|01575
+Hardin,OH,|01576
+Brookings,SD,Brookings|01577
+Dunklin,MO,Kennett|01578
+Elk,PA,St. Marys|01579
+Knox,KY,|01580
+Polk,MN,Grand Forks|01581
+Jefferson Davis,LA,Jennings|01582
+Muhlenberg,KY,Central City|01583
+Marshall,KY,|01584
+Malheur,OR,Ontario|01585
+Freeborn,MN,Albert Lea|01586
+Gallia,OH,Point Pleasant|01587
+Clare,MI,|01588
+Marion,AL,|01589
+Franklin,ME,|01590
+Cass,TX,|01591
+Logan,IL,Lincoln|01592
+Montgomery,IL,|01593
+Carroll,VA,|01594
+Stoddard,MO,|01595
+Pontotoc,MS,Tupelo|01596
+Vernon,WI,|01597
+Pine,MN,|01598
+Caddo,OK,|01599
+Alpena,MI,Alpena|01600
+Copiah,MS,Jackson|01601
+Randolph,WV,|01602
+Harlan,KY,|01603
+Wythe,VA,|01604
+Jackson,WV,|01605
+McPherson,KS,McPherson|01606
+Fayette,OH,Washington Court House|01607
+Tate,MS,Memphis|01608
+Trempealeau,WI,|01609
+Lake,MT,|01610
+Van Wert,OH,Van Wert|01611
+Lincoln,WI,Merrill|01612
+Perry,KY,|01613
+Pike,OH,|01614
+Mason,MI,|01615
+Bell,KY,Middlesborough|01616
+Meade,KY,Louisville/Jefferson County|01617
+Cass,MN,Brainerd|01618
+Adams,OH,|01619
+Bradford,FL,|01620
+Ellis,KS,Hays|01621
+Boyle,KY,Danville|01622
+Austin,TX,Houston|01623
+Wyoming,PA,Scranton|01624
+Scott,MS,|01625
+Saint Francis,AR,Forrest City|01626
+Mineral,WV,Cumberland|01627
+Park,WY,|01628
+Palo Pinto,TX,Mineral Wells|01629
+Yazoo,MS,Yazoo City|01630
+Powhatan,VA,Richmond|01631
+Dinwiddie,VA,Richmond|01632
+Morehouse,LA,Bastrop|01633
+Montgomery,NC,|01634
+Door,WI,|01635
+Carter,KY,|01636
+Le Sueur,MN,|01637
+Peach,GA,Fort Valley|01638
+Barton,KS,Great Bend|01639
+Garvin,OK,|01640
+Simpson,MS,Jackson|01641
+Custer,OK,|01642
+Carroll,AR,|01643
+Cherokee,NC,|01644
+Mason,WV,Point Pleasant|01645
+Toombs,GA,Vidalia|01646
+Cibola,NM,Grants|01647
+Union,MS,|01648
+Baker,FL,Jacksonville|01649
+Marion,MS,|01650
+Lewis,NY,|01651
+Elmore,ID,Mountain Home|01652
+Anson,NC,Charlotte|01653
+Mingo,WV,|01654
+Logan,KY,|01655
+Geneva,AL,Dothan|01656
+Juneau,WI,|01657
+De Soto,LA,Shreveport|01658
+Grimes,TX,|01659
+Oceana,MI,|01660
+Jackson,OK,Altus|01661
+Uvalde,TX,Uvalde|01662
+San Jacinto,TX,Houston|01663
+Boone,IA,Boone|01664
+Nicholas,WV,|01665
+Winchester City,VA,Winchester|01666
+Randolph,IN,|01667
+Cheboygan,MI,|01668
+Coahoma,MS,Clarksdale|01669
+Jefferson,ID,Idaho Falls|01670
+Mille Lacs,MN,|01671
+Benton,IA,Cedar Rapids|01672
+Franklin,KS,Kansas City|01673
+Cleburne,AR,|01674
+Charlevoix,MI,|01675
+Brown,MN,New Ulm|01676
+Iosco,MI,|01677
+Lyon,MN,Marshall|01678
+Clarke,AL,|01679
+Union,OR,La Grande|01680
+Grayson,KY,|01681
+Gladwin,MI,|01682
+Fluvanna,VA,Charlottesville|01683
+Lee,VA,|01684
+Johnson,AR,|01685
+Audrain,MO,Mexico|01686
+Tattnall,GA,|01687
+Seminole,OK,|01688
+Shelby,TX,|01689
+Prentiss,MS,|01690
+Cass,NE,Omaha|01691
+Wasco,OR,City of The Dalles|01692
+Luna,NM,Deming|01693
+Grady,GA,|01694
+Plymouth,IA,|01695
+Woodford,KY,Lexington|01696
+Saline,IL,Harrisburg|01697
+Washington,FL,|01698
+Gillespie,TX,Fredericksburg|01699
+Salem City,VA,Roanoke|01700
+Jasper,SC,Hilton Head Island|01701
+Milam,TX,|01702
+Manistee,MI,|01703
+Hertford,NC,|01704
+Grant,KY,Cincinnati|01705
+Juniata,PA,|01706
+Poinsett,AR,Jonesboro|01707
+Fayette,TX,|01708
+Columbia,AR,Magnolia|01709
+Martin,NC,|01710
+Waushara,WI,|01711
+Winston,AL,|01712
+Dawson,NE,Lexington|01713
+Bremer,IA,Waterloo|01714
+Upshur,WV,|01715
+Sabine,LA,|01716
+Otsego,MI,|01717
+Sumner,KS,Wichita|01718
+Brooke,WV,Weirton|01719
+Page,VA,|01720
+Menominee,MI,Marinette|01721
+Hampshire,WV,Winchester|01722
+Fairfield,SC,Columbia|01723
+Ohio,KY,|01724
+Panola,TX,|01725
+Wyoming,WV,|01726
+Staunton City,VA,Staunton|01727
+Houston,TX,|01728
+Caswell,NC,|01729
+Iowa,WI,Madison|01730
+Antrim,MI,|01731
+Currituck,NC,Virginia Beach|01732
+Osceola,MI,|01733
+Mitchell,GA,|01734
+Crisp,GA,Cordele|01735
+Assumption,LA,Pierre Part|01736
+Itawamba,MS,Tupelo|01737
+Prince Edward,VA,|01738
+Johnson,KY,|01739
+Rowan,KY,|01740
+Meeker,MN,|01741
+Scott,VA,Kingsport|01742
+Monroe,AL,|01743
+Clark,AR,Arkadelphia|01744
+Jersey,IL,St. Louis|01745
+Cassia,ID,Burley|01746
+Seward,KS,Liberal|01747
+Hockley,TX,Levelland|01748
+Randolph,AL,|01749
+Union,LA,Monroe|01750
+Jo Daviess,IL,|01751
+Payette,ID,Ontario|01752
+Barnwell,SC,|01753
+Wyandot,OH,|01754
+Hempstead,AR,Hope|01755
+Emanuel,GA,|01756
+Hopewell City,VA,Richmond|01757
+George,MS,Pascagoula|01758
+Taylor,FL,|01759
+Gray,TX,Pampa|01760
+Yankton,SD,Yankton|01761
+Mahaska,IA,Oskaloosa|01762
+Logan,AR,|01763
+Hood River,OR,Hood River|01764
+Gage,NE,Beatrice|01765
+Rockbridge,VA,|01766
+Tippah,MS,|01767
+Scott,TN,|01768
+Yell,AR,Russellville|01769
+Hutchinson,TX,Borger|01770
+Fayette,IL,|01771
+Willacy,TX,Raymondville|01772
+Beckham,OK,Elk City|01773
+McDowell,WV,|01774
+Northampton,NC,Roanoke Rapids|01775
+Franklin,GA,|01776
+Grenada,MS,Grenada|01777
+Moore,TX,Dumas|01778
+Ashley,AR,|01779
+Tyler,TX,|01780
+Clay,KY,|01781
+Lincoln,WV,Charleston|01782
+Jefferson,OR,|01783
+Leelanau,MI,Traverse City|01784
+Washington,IA,Iowa City|01785
+Worth,GA,Albany|01786
+Wabasha,MN,Rochester|01787
+Labette,KS,Parsons|01788
+Pottawatomie,KS,Manhattan|01789
+Cherokee,KS,|01790
+Macon,AL,Tuskegee|01791
+Vilas,WI,|01792
+Anderson,KY,Frankfort|01793
+Carbon,UT,Price|01794
+Calhoun,TX,Victoria|01795
+Nobles,MN,Worthington|01796
+Greene,NC,Greenville|01797
+Mercer,KY,|01798
+Bertie,NC,|01799
+Conway,AR,|01800
+Washington,GA,|01801
+Hampton,SC,|01802
+Winneshiek,IA,|01803
+Marengo,AL,|01804
+Dakota,NE,Sioux City|01805
+Waynesboro City,VA,Staunton|01806
+Warren,NC,|01807
+Buchanan,IA,|01808
+Butler,AL,|01809
+Pacific,WA,|01810
+Fayette,IA,|01811
+Adams,WI,|01812
+Colorado,TX,|01813
+Fillmore,MN,|01814
+Martin,MN,Fairmont|01815
+Concordia,LA,Natchez|01816
+Carroll,IA,|01817
+Wayne,KY,|01818
+Sevier,UT,|01819
+Franklin,LA,|01820
+Madison,NC,Asheville|01821
+Wayne,MS,|01822
+Richland,LA,|01823
+Taylor,WI,|01824
+Polk,AR,|01825
+Texas,OK,Guymon|01826
+Jones,IA,Cedar Rapids|01827
+Clay,MS,West Point|01828
+Polk,NC,|01829
+Lincoln,NM,Ruidoso|01830
+Bandera,TX,San Antonio|01831
+Jackson,WI,|01832
+Hubbard,MN,|01833
+Klickitat,WA,|01834
+East Feliciana,LA,Baton Rouge|01835
+Buena Vista,IA,Storm Lake|01836
+McIntosh,OK,|01837
+Jones,TX,Abilene|01838
+Henry,IA,|01839
+De Witt,TX,|01840
+Dodge,MN,Rochester|01841
+Woodward,OK,Woodward|01842
+Minidoka,ID,Burley|01843
+Breckinridge,KY,|01844
+Bourbon,KY,Lexington|01845
+Langlade,WI,|01846
+Allen,KY,|01847
+Holmes,FL,|01848
+Saluda,SC,Columbia|01849
+Jackson,IA,|01850
+Marion,KY,|01851
+Gonzales,TX,|01852
+Dickinson,KS,|01853
+Pickens,AL,|01854
+Montague,TX,|01855
+Lincoln,MT,|01856
+Tishomingo,MS,|01857
+Covington,MS,|01858
+Davison,SD,Mitchell|01859
+Deaf Smith,TX,Hereford|01860
+Perry,IN,|01861
+Llano,TX,|01862
+Berrien,GA,|01863
+Lavaca,TX,|01864
+Madison,FL,|01865
+Holmes,MS,|01866
+Waseca,MN,|01867
+Jefferson,KS,Topeka|01868
+Houston,MN,La Crosse|01869
+Arkansas,AR,|01870
+Otero,CO,|01871
+Haywood,TN,Brownsville|01872
+Pierce,GA,Waycross|01873
+Adams,WA,|01874
+Adair,KY,|01875
+Duchesne,UT,|01876
+Eastland,TX,|01877
+Southampton,VA,|01878
+Young,TX,|01879
+Drew,AR,|01880
+Cedar,IA,|01881
+Patrick,VA,|01882
+New Kent,VA,Richmond|01883
+Brantley,GA,Brunswick|01884
+Greene,VA,Charlottesville|01885
+Banks,GA,|01886
+Lamar,GA,Atlanta|01887
+McCreary,KY,|01888
+Montour,PA,Bloomsburg|01889
+Appling,GA,|01890
+Bosque,TX,|01891
+Hart,KY,|01892
+Clayton,IA,|01893
+Franklin,AR,Fort Smith|01894
+Lincoln,WY,|01895
+Richland,WI,|01896
+Jackson,AR,|01897
+Randolph,AR,|01898
+Los Alamos,NM,Los Alamos|01899
+Cross,AR,|01900
+Falls,TX,|01901
+Socorro,NM,|01902
+Grant,AR,Little Rock|01903
+Bristol City,VA,Kingsport|01904
+Yancey,NC,|01905
+Chaffee,CO,|01906
+Avery,NC,|01907
+Stone,MS,Gulfport|01908
+Bond,IL,St. Louis|01909
+Tama,IA,|01910
+Delaware,IA,|01911
+Warren,IL,Galesburg|01912
+Ben Hill,GA,Fitzgerald|01913
+Washington,AL,|01914
+Russell,KY,|01915
+Piscataquis,ME,|01916
+Hardin,IA,|01917
+Gaines,TX,|01918
+Benzie,MI,Traverse City|01919
+Mason,KY,Maysville|01920
+Potter,PA,|01921
+Westmoreland,VA,|01922
+Brunswick,VA,|01923
+Lawrence,AR,|01924
+Colonial Heights City,VA,Richmond|01925
+Chickasaw,MS,|01926
+Simpson,KY,|01927
+Henry,AL,Dothan|01928
+Van Buren,AR,|01929
+Giles,VA,Blacksburg|01930
+Sharp,AR,|01931
+Fayette,AL,|01932
+Frio,TX,|01933
+Cook,GA,|01934
+Burleson,TX,College Station|01935
+Kalkaska,MI,Traverse City|01936
+Buckingham,VA,|01937
+Crawford,IA,|01938
+Jasper,MS,Laurel|01939
+Spencer,KY,Louisville/Jefferson County|01940
+Sevier,AR,|01941
+Rockcastle,KY,Richmond|01942
+Bates,MO,Kansas City|01943
+Jefferson,GA,|01944
+Scurry,TX,Snyder|01945
+Garrard,KY,|01946
+Taylor,WV,Clarksburg|01947
+Lafayette,WI,|01948
+Lawrence,IL,|01949
+Leon,TX,|01950
+Clarke,MS,Meridian|01951
+Gem,ID,Boise City|01952
+Clay,IA,Spencer|01953
+Dickinson,IA,Spirit Lake|01954
+Marion,AR,|01955
+Crawford,WI,|01956
+Robertson,TX,College Station|01957
+Lee,TX,|01958
+Barbour,WV,|01959
+Pawnee,OK,Tulsa|01960
+Sawyer,WI,|01961
+Dukes,MA,|01962
+Humboldt,NV,|01963
+Neosho,KS,|01964
+Telfair,GA,|01965
+Smith,MS,|01966
+Mercer,IL,Davenport|01967
+Radford City,VA,Blacksburg|01968
+Lewis,WV,|01969
+Iowa,IA,|01970
+Knott,KY,|01971
+Clark,IL,|01972
+Richland,ND,Wahpeton|01973
+Floyd,IA,|01974
+Osage,KS,Topeka|01975
+Rabun,GA,|01976
+Jackson,LA,Ruston|01977
+Idaho,ID,|01978
+Alleghany,VA,|01979
+Brooks,GA,Valdosta|01980
+Aitkin,MN,|01981
+Ashland,WI,|01982
+Baker,OR,|01983
+Hill,MT,Havre|01984
+Clay,AR,|01985
+Redwood,MN,|01986
+Casey,KY,|01987
+King William,VA,Richmond|01988
+Page,IA,|01989
+Washburn,WI,|01990
+Arenac,MI,|01991
+Carbon,WY,|01992
+Harrison,OH,|01993
+Lawrence,KY,|01994
+Nottoway,VA,|01995
+Marshall,OK,|01996
+Hale,AL,Tuscaloosa|01997
+Otoe,NE,|01998
+Renville,MN,|01999
+Madison,IA,Des Moines|02000
+Hamilton,IA,|02001
+Park,MT,|02002
+Moniteau,MO,Jefferson City|02003
+Mitchell,NC,|02004
+Union,FL,|02005
+Grayson,VA,|02006
+Pecos,TX,|02007
+Las Animas,CO,|02008
+Burnett,WI,|02009
+Alamosa,CO,|02010
+Walthall,MS,|02011
+Massac,IL,Paducah|02012
+Carroll,IL,|02013
+Tallahatchie,MS,|02014
+Floyd,VA,|02015
+Sibley,MN,|02016
+Nolan,TX,Sweetwater|02017
+Choctaw,OK,|02018
+Calhoun,SC,Columbia|02019
+Bourbon,KS,|02020
+Jeff Davis,GA,|02021
+Mills,IA,Omaha|02022
+Morgan,OH,|02023
+Kingfisher,OK,|02024
+Craig,OK,|02025
+Nelson,VA,Charlottesville|02026
+Bayfield,WI,|02027
+Union,KY,|02028
+Appomattox,VA,Lynchburg|02029
+Cleburne,AL,|02030
+Harrison,IA,Omaha|02031
+Roane,WV,|02032
+Dooly,GA,|02033
+Pendleton,KY,Cincinnati|02034
+Butler,IA,|02035
+Missaukee,MI,Cadillac|02036
+Fulton,PA,|02037
+Karnes,TX,|02038
+Hamilton,FL,|02039
+Chowan,NC,|02040
+Andrews,TX,Andrews|02041
+Jefferson,FL,Tallahassee|02042
+Rusk,WI,|02043
+San Juan,UT,|02044
+Macon,GA,|02045
+Estill,KY,|02046
+White,IL,|02047
+Monroe,OH,|02048
+Calhoun,FL,|02049
+Screven,GA,|02050
+Trinity,TX,|02051
+Lamar,AL,|02052
+Faribault,MN,|02053
+Braxton,WV,|02054
+Long,GA,Hinesville|02055
+Newton,TX,|02056
+Fleming,KY,|02057
+Trigg,KY,Clarksville|02058
+McIntosh,GA,Brunswick|02059
+Allamakee,IA,|02060
+Saline,NE,|02061
+Larue,KY,Elizabethtown|02062
+Atoka,OK,|02063
+Price,WI,|02064
+Lincoln,AR,Pine Bluff|02065
+Ford,IL,Champaign-Urbana|02066
+Jackson,TX,|02067
+Crawford,MI,|02068
+Williamsburg City,VA,Virginia Beach|02069
+Clarke,VA,Washington|02070
+Hardy,WV,|02071
+Zapata,TX,|02072
+Hughes,OK,|02073
+Swain,NC,|02074
+Lamb,TX,|02075
+Comanche,TX,|02076
+Cass,IA,|02077
+Clay,AL,|02078
+Pennington,MN,|02079
+Summers,WV,|02080
+Morgan,KY,|02081
+Crenshaw,AL,|02082
+Jasper,GA,Atlanta|02083
+Greene,IL,|02084
+Lewis,KY,Maysville|02085
+Wadena,MN,|02086
+Dawson,TX,Lamesa|02087
+Converse,WY,|02088
+Martinsville City,VA,Martinsville|02089
+Moffat,CO,|02090
+Howard,AR,|02091
+Trinity,CA,|02092
+Reeves,TX,Pecos|02093
+Izard,AR,|02094
+York,NE,|02095
+Madison,TX,|02096
+Webster,KY,Evansville|02097
+Buffalo,WI,|02098
+Callahan,TX,Abilene|02099
+Wilbarger,TX,Vernon|02100
+Murray,OK,|02101
+Jackson,KS,Topeka|02102
+Perquimans,NC,Elizabeth City|02103
+Presque Isle,MI,|02104
+Allen,KS,|02105
+Koochiching,MN,|02106
+Madison,VA,|02107
+Fremont,ID,Rexburg|02108
+Conecuh,AL,|02109
+Washington,NC,|02110
+Little River,AR,|02111
+Pamlico,NC,New Bern|02112
+Bleckley,GA,|02113
+Desha,AR,|02114
+Pend Oreille,WA,|02115
+Caldwell,KY,|02116
+Morris,TX,|02117
+Lawrence,MS,|02118
+Lunenburg,VA,|02119
+Appanoose,IA,|02120
+Glades,FL,|02121
+Big Horn,MT,|02122
+Red River,TX,|02123
+Franklin,ID,Logan|02124
+Haskell,OK,|02125
+Menard,IL,Springfield|02126
+Amelia,VA,Richmond|02127
+Butler,KY,|02128
+Yalobusha,MS,|02129
+Marion,KS,|02130
+Terry,TX,|02131
+Marshall,IL,Peoria|02132
+Crawford,GA,Macon|02133
+Powell,KY,|02134
+Charlotte,VA,|02135
+Johnson,IL,|02136
+Prowers,CO,|02137
+Jefferson Davis,MS,|02138
+Todd,KY,|02139
+Grundy,IA,Waterloo|02140
+Chippewa,MN,|02141
+Chickasaw,IA,|02142
+Stone,AR,|02143
+Northampton,VA,|02144
+Northumberland,VA,|02145
+Fulton,AR,|02146
+Gates,NC,|02147
+Okfuskee,OK,|02148
+Charlton,GA,|02149
+Shelby,IA,|02150
+Edmonson,KY,Bowling Green|02151
+Poquoson City,VA,Virginia Beach|02152
+Madison,LA,Tallulah|02153
+Archuleta,CO,|02154
+Cherokee,IA,|02155
+Pulaski,GA,|02156
+Rio Grande,CO,|02157
+Grant,WV,|02158
+Iron,MI,|02159
+Chicot,AR,|02160
+Duval,TX,|02161
+Washington,KY,|02162
+Custer,MT,|02163
+Cottonwood,MN,|02164
+Wilcox,AL,|02165
+Washita,OK,|02166
+West Carroll,LA,|02167
+Bath,KY,Mount Sterling|02168
+Fergus,MT,|02169
+Pushmataha,OK,|02170
+Noble,OK,|02171
+Lake,MI,|02172
+Coosa,AL,Alexander City|02173
+Live Oak,TX,|02174
+Owyhee,ID,Boise City|02175
+Bradley,AR,|02176
+Sanders,MT,|02177
+Jefferson,MT,Helena|02178
+Lancaster,VA,|02179
+Louisa,IA,Muscatine|02180
+Hancock,IA,|02181
+Leslie,KY,|02182
+Box Butte,NE,|02183
+Pike,AR,|02184
+Chattahoochee,GA,Columbus|02185
+Green,KY,|02186
+Scott,AR,|02187
+Watonwan,MN,|02188
+Morrow,OR,Pendleton|02189
+Alleghany,NC,|02190
+Latimer,OK,|02191
+Essex,VA,|02192
+Mackinac,MI,|02193
+Bacon,GA,|02194
+Red Willow,NE,|02195
+Early,GA,|02196
+Evans,GA,|02197
+Candler,GA,|02198
+Pope,MN,|02199
+Monroe,KY,|02200
+Middlesex,VA,|02201
+Johnston,OK,|02202
+Guthrie,IA,Des Moines|02203
+Alcona,MI,|02204
+Custer,NE,|02205
+Montgomery,MS,|02206
+Rains,TX,|02207
+Bullock,AL,|02208
+Lake,MN,|02209
+Winnebago,IA,|02210
+Owen,KY,|02211
+Sabine,TX,|02212
+Carroll,KY,|02213
+Tunica,MS,Memphis|02214
+Mitchell,IA,|02215
+Clay,TX,Wichita Falls|02216
+Montgomery,IA,|02217
+Franklin,IA,|02218
+Ward,TX,|02219
+Franklin,TX,|02220
+Wilkes,GA,|02221
+Perry,AL,|02222
+Lincoln,WA,|02223
+Marion,TX,|02224
+Nowata,OK,|02225
+Colfax,NE,|02226
+Keokuk,IA,|02227
+Runnels,TX,|02228
+Blanco,TX,|02229
+Kemper,MS,Meridian|02230
+Ritchie,WV,|02231
+Perry,AR,Little Rock|02232
+Yellow Medicine,MN,|02233
+Holt,NE,|02234
+Roosevelt,MT,|02235
+Lee,AR,|02236
+Sac,IA,|02237
+Emmet,IA,|02238
+Clinton,KY,|02239
+Parmer,TX,|02240
+Jackson,MN,|02241
+Webster,MS,|02242
+Juab,UT,Provo|02243
+McCormick,SC,|02244
+Ochiltree,TX,|02245
+Nemaha,KS,|02246
+Nantucket,MA,|02247
+Marshall,KS,|02248
+Metcalfe,KY,Glasgow|02249
+Rice,KS,|02250
+Carbon,MT,Billings|02251
+Lanier,GA,Valdosta|02252
+Cumberland,VA,Richmond|02253
+Yuma,CO,|02254
+White Pine,NV,|02255
+Cheyenne,NE,|02256
+Dimmit,TX,|02257
+Brown,KS,|02258
+Camden,NC,Elizabeth City|02259
+Johnson,GA,Dublin|02260
+Valley,ID,|02261
+Humboldt,IA,|02262
+Swift,MN,|02263
+Montmorency,MI,|02264
+Stevens,MN,|02265
+Modoc,CA,|02266
+Calhoun,IA,|02267
+Linn,KS,Kansas City|02268
+Pratt,KS,|02269
+Stephens,TX,|02270
+Claiborne,MS,|02271
+Alger,MI,|02272
+Pipestone,MN,|02273
+Wilkinson,GA,|02274
+Irwin,GA,Fitzgerald|02275
+Cloud,KS,|02276
+McLean,KY,Owensboro|02277
+Livingston,KY,Paducah|02278
+Morgan,UT,Ogden|02279
+Kiowa,OK,|02280
+Marshall,MN,|02281
+Hancock,GA,Milledgeville|02282
+Love,OK,Ardmore|02283
+Palo Alto,IA,|02284
+Wilson,KS,|02285
+Mitchell,TX,|02286
+Humphreys,MS,|02287
+Greene,IA,|02288
+Terrell,GA,Albany|02289
+Crittenden,KY,|02290
+Forest,WI,|02291
+Deer Lodge,MT,|02292
+Benewah,ID,|02293
+Wilcox,GA,|02294
+Richmond,VA,|02295
+Beaverhead,MT,|02296
+Rosebud,MT,|02297
+Brewster,TX,|02298
+Tyler,WV,|02299
+Phelps,NE,|02300
+Cuming,NE,|02301
+Hamilton,NE,|02302
+Montgomery,GA,Vidalia|02303
+Stillwater,MT,|02304
+Archer,TX,Wichita Falls|02305
+Greene,AL,Tuscaloosa|02306
+Jack,TX,|02307
+Quay,NM,|02308
+Twiggs,GA,Macon|02309
+Nevada,AR,Hope|02310
+Mathews,VA,Virginia Beach|02311
+Dawson,MT,|02312
+McLean,ND,|02313
+Turner,GA,|02314
+Taylor,GA,|02315
+Coleman,TX,|02316
+Woods,OK,|02317
+Lafayette,FL,|02318
+San Augustine,TX,|02319
+Baraga,MI,|02320
+Trimble,KY,Louisville/Jefferson County|02321
+Clearwater,ID,|02322
+Marion,GA,Columbus|02323
+Benton,MS,|02324
+Seminole,GA,|02325
+Murray,MN,|02326
+Pocahontas,WV,|02327
+Prairie,AR,|02328
+Clearwater,MN,|02329
+Gilmer,WV,|02330
+Cleveland,AR,Pine Bluff|02331
+Coffey,KS,|02332
+Gallatin,KY,Cincinnati|02333
+Franklin City,VA,|02334
+Johnson,WY,|02335
+Hancock,KY,Owensboro|02336
+Choctaw,MS,|02337
+Clay,KS,|02338
+Hamilton,TX,|02339
+Somervell,TX,Granbury|02340
+Bracken,KY,Cincinnati|02341
+Schoolcraft,MI,|02342
+Decatur,IA,|02343
+Greenlee,AZ,Safford|02344
+Houston,TN,|02345
+Butler,NE,|02346
+Atkinson,GA,Douglas|02347
+Liberty,FL,|02348
+Jenkins,GA,|02349
+Newton,AR,Harrison|02350
+Lyon,KY,|02351
+McCulloch,TX,|02352
+Kit Carson,CO,|02353
+Ballard,KY,Paducah|02354
+Quitman,MS,|02355
+Doddridge,WV,Clarksburg|02356
+Searcy,AR,|02357
+Monroe,AR,|02358
+Franklin,MS,|02359
+Dallas,AR,|02360
+Anderson,KS,|02361
+Castro,TX,|02362
+Lincoln,GA,|02363
+Tillman,OK,|02364
+Doniphan,KS,St. Joseph|02365
+Lemhi,ID,|02366
+Thomas,KS,|02367
+Lake,OR,|02368
+Yoakum,TX,|02369
+Kingman,KS,|02370
+Swisher,TX,|02371
+Merrick,NE,Grand Island|02372
+Lake,TN,|02373
+Power,ID,Pocatello|02374
+Randolph,GA,|02375
+Forest,PA,|02376
+Pendleton,WV,|02377
+Madison,MT,|02378
+Adair,IA,|02379
+Calhoun,WV,|02380
+Pleasants,WV,Parkersburg|02381
+Worth,IA,Mason City|02382
+Ferry,WA,|02383
+Major,OK,|02384
+Pepin,WI,|02385
+Fremont,IA,|02386
+Harney,OR,|02387
+Wheeler,GA,|02388
+Refugio,TX,|02389
+Valley,MT,|02390
+Henderson,IL,Burlington|02391
+Lake,CO,Edwards|02392
+Pocahontas,IA,|02393
+Pierce,NE,Norfolk|02394
+Woodruff,AR,|02395
+Lac Qui Parle,MN,|02396
+Charles City,VA,Richmond|02397
+Nemaha,NE,|02398
+Brooks,TX,|02399
+Goliad,TX,Victoria|02400
+Weston,WY,|02401
+Bailey,TX,|02402
+Tucker,WV,|02403
+Nicholas,KY,|02404
+Kane,UT,|02405
+Winkler,TX,|02406
+Ida,IA,|02407
+Surry,VA,Virginia Beach|02408
+Wabaunsee,KS,Topeka|02409
+Childress,TX,|02410
+Boise,ID,Boise City|02411
+Powell,MT,|02412
+Wallowa,OR,|02413
+Pawnee,KS,|02414
+Russell,KS,|02415
+Caribou,ID,|02416
+La Salle,TX,|02417
+Treutlen,GA,|02418
+Talbot,GA,|02419
+Burt,NE,|02420
+Cumberland,KY,|02421
+Norman,MN,|02422
+Cameron,LA,Lake Charles|02423
+Bland,VA,|02424
+Hancock,TN,|02425
+Fulton,KY,Union City|02426
+Clinch,GA,|02427
+Ontonagon,MI,|02428
+Pershing,NV,|02429
+Huerfano,CO,|02430
+Dallam,TX,|02431
+Calhoun,GA,|02432
+Greenwood,KS,|02433
+Antelope,NE,|02434
+Rio Blanco,CO,|02435
+Buena Vista City,VA,|02436
+Luce,MI,|02437
+Clay,NE,Hastings|02438
+Bent,CO,|02439
+Ellsworth,KS,|02440
+Blaine,MT,|02441
+Moody,SD,|02442
+Jefferson,OK,|02443
+Osceola,IA,|02444
+Garza,TX,|02445
+Floyd,TX,|02446
+Sullivan,PA,|02447
+Spink,SD,|02448
+Mitchell,KS,|02449
+Moore,TN,Tullahoma|02450
+Taylor,IA,|02451
+Menifee,KY,Mount Sterling|02452
+Howard,NE,Grand Island|02453
+Greer,OK,|02454
+Bedford City,VA,Lynchburg|02455
+Cotton,OK,|02456
+Carson,TX,Amarillo|02457
+Pondera,MT,|02458
+San Saba,TX,|02459
+Stanton,NE,Norfolk|02460
+Miller,GA,|02461
+Audubon,IA,|02462
+Ottawa,KS,Salina|02463
+Teton,MT,|02464
+Hartley,TX,|02465
+Crosby,TX,Lubbock|02466
+Harper,KS,|02467
+Grant,MN,|02468
+Sherman,KS,|02469
+Gray,KS,|02470
+Dixon,NE,Sioux City|02471
+Bear Lake,ID,|02472
+Covington City,VA,|02473
+Emporia City,VA,|02474
+Coal,OK,|02475
+Morris,KS,|02476
+Iron,WI,|02477
+Lynn,TX,|02478
+Haskell,TX,|02479
+Lincoln,MN,|02480
+Fillmore,NE,|02481
+Warren,GA,|02482
+Crowley,CO,|02483
+Chouteau,MT,|02484
+Hyde,NC,|02485
+Washington,KS,|02486
+Stevens,KS,|02487
+Wirt,WV,Parkersburg|02488
+Cherry,NE,|02489
+Norton,KS,|02490
+Alfalfa,OK,|02491
+Phillips,KS,|02492
+Beaver,OK,|02493
+Hansford,TX,|02494
+Broadwater,MT,|02495
+Van Buren,TN,|02496
+Boone,NE,|02497
+Sheridan,NE,|02498
+Lincoln,CO,|02499
+Gilpin,CO,Denver|02500
+Wheeler,TX,|02501
+Calhoun,AR,Camden|02502
+Lincoln,NV,|02503
+Toole,MT,|02504
+Jim Hogg,TX,|02505
+Dickey,ND,|02506
+Big Stone,MN,|02507
+Delta,TX,Dallas-Fort Worth|02508
+Thayer,NE,|02509
+Craig,VA,Roanoke|02510
+Rooks,KS,|02511
+Ringgold,IA,|02512
+Carlisle,KY,|02513
+Calhoun,IL,St. Louis|02514
+Cameron,PA,|02515
+Schley,GA,Americus|02516
+Republic,KS,|02517
+Furnas,NE,|02518
+Mills,TX,|02519
+Scott,KS,|02520
+Hickman,KY,|02521
+Barber,KS,|02522
+Washington,CO,|02523
+Dewey,OK,|02524
+Mineral,NV,|02525
+Bath,VA,|02526
+Guadalupe,NM,|02527
+Kimble,TX,|02528
+Meade,KS,|02529
+Kittson,MN,|02530
+Musselshell,MT,|02531
+Pope,IL,|02532
+Phillips,CO,|02533
+Stafford,KS,|02534
+Ouray,CO,|02535
+Florence,WI,Iron Mountain|02536
+Crane,TX,|02537
+Oneida,ID,|02538
+Valley,NE,|02539
+Haskell,KS,|02540
+Phillips,MT,|02541
+Mineral,MT,|02542
+Wells,ND,|02543
+Ellis,OK,|02544
+Sutton,TX,|02545
+Red Lake,MN,|02546
+Concho,TX,|02547
+Lake of the Woods,MN,|02548
+Echols,GA,Valdosta|02549
+Adams,IA,|02550
+Wahkiakum,WA,|02551
+Kearny,KS,|02552
+Fisher,TX,|02553
+Osborne,KS,|02554
+Smith,KS,|02555
+Lewis,ID,|02556
+Hemphill,TX,|02557
+Baylor,TX,|02558
+Harper,OK,|02559
+Chautauqua,KS,|02560
+Sweet Grass,MT,|02561
+Roger Mills,OK,|02562
+Kinney,TX,|02563
+Traverse,MN,|02564
+Costilla,CO,|02565
+Shackelford,TX,|02566
+Reagan,TX,|02567
+Upton,TX,|02568
+Hall,TX,|02569
+Foster,ND,|02570
+Woodson,KS,|02571
+Rush,KS,|02572
+Lincoln,KS,|02573
+Morton,KS,|02574
+Franklin,NE,|02575
+Sherman,NE,|02576
+Brown,NE,|02577
+Cochran,TX,|02578
+Ness,KS,|02579
+Glascock,GA,|02580
+Granite,MT,|02581
+Jewell,KS,|02582
+Collingsworth,TX,|02583
+Edwards,KS,|02584
+Sherman,TX,|02585
+Trego,KS,|02586
+Decatur,KS,|02587
+Harmon,OK,|02588
+Fallon,MT,|02589
+Elk,KS,|02590
+Chase,KS,Emporia|02591
+Pawnee,NE,|02592
+Logan,KS,|02593
+Cheyenne,KS,|02594
+Gove,KS,|02595
+Hamilton,KS,|02596
+Graham,KS,|02597
+Sheridan,KS,|02598
+Kiowa,KS,|02599
+Rawlins,KS,|02600
+Cimarron,OK,|02601
+Highland,VA,|02602
+Wichita,KS,|02603
+Clark,KS,|02604
+Wheatland,MT,|02605
+Boyd,NE,|02606
+Gosper,NE,Lexington|02607
+Deuel,NE,|02608
+Hodgeman,KS,|02609
+Armstrong,TX,Amarillo|02610
+Comanche,KS,|02611
+Gilliam,OR,|02612
+Cheyenne,CO,|02613
+Daniels,MT,|02614
+Lane,KS,|02615
+McCone,MT,|02616
+Irion,TX,San Angelo|02617
+Wheeler,OR,|02618
+Prairie,MT,|02619
+Alpine,CA,|02620
+Daggett,UT,|02621
+Cambria,PA,Johnstown|02622
+Midland,TX,Midland|02623
+Berkshire,MA,Pittsfield|02624
+Cache,UT,Logan|02625
+Androscoggin,ME,Lewiston|02626
+Pennington,SD,Rapid City|02627
+Cass,MO,Kansas City|02628
+Bowie,TX,Texarkana|02629
+Buchanan,MO,St. Joseph|02630
+Limestone,AL,Huntsville|02631
+Christian,MO,Springfield|02632
+Rockingham,VA,Harrisonburg|02633
+Portage,WI,Stevens Point|02634
+Greenwood,SC,Greenwood|02635
+Butler,KS,Wichita|02636
+Saint Francois,MO,Farmington|02637
+Ashland,OH,Ashland|02638
+Taney,MO,Branson|02639
+Curry,NM,Clovis|02640
+Stephenson,IL,Freeport|02641
+Oktibbeha,MS,Starkville|02642
+Richmond,NC,Rockingham|02643
+Bingham,ID,Blackfoot|02644
+Atascosa,TX,San Antonio|02645
+Lincoln,SD,Sioux Falls|02646
+Sanilac,MI,|02647
+Pettis,MO,Sedalia|02648
+Graves,KY,Mayfield|02649
+Lee,IL,Dixon|02650
+Barry,MO,|02651
+Bladen,NC,|02652
+Lafayette,MO,Kansas City|02653
+McDonough,IL,Macomb|02654
+Warren,MO,St. Louis|02655
+Ottawa,OK,Miami|02656
+Caledonia,VT,|02657
+Iroquois,IL,|02658
+Sheridan,WY,Sheridan|02659
+Summit,CO,Silverthorne|02660
+Sanpete,UT,|02661
+Morton,ND,Bismarck|02662
+Ashe,NC,|02663
+Texas,MO,|02664
+Adair,MO,Kirksville|02665
+Meade,SD,Rapid City|02666
+Miller,MO,|02667
+Roscommon,MI,|02668
+Stark,ND,Dickinson|02669
+Lawrence,SD,Spearfish|02670
+Plaquemines,LA,New Orleans|02671
+Bibb,AL,Birmingham|02672
+Pointe Coupee,LA,Baton Rouge|02673
+Williams,ND,Williston|02674
+Henry,MO,|02675
+Blaine,ID,|02676
+Teton,WY,Jackson|02677
+Roosevelt,NM,Portales|02678
+Wright,MO,|02679
+Sainte Genevieve,MO,|02680
+Andrew,MO,St. Joseph|02681
+Gogebic,MI,|02682
+Torrance,NM,Albuquerque|02683
+Moultrie,IL,|02684
+Grand,CO,|02685
+Mason,IL,|02686
+Noble,OH,|02687
+Union,SD,Sioux City|02688
+Clay,SD,Vermillion|02689
+Colfax,NM,|02690
+Shoshone,ID,|02691
+Barnes,ND,|02692
+Clay,NC,|02693
+Sublette,WY,|02694
+Butte,SD,|02695
+Webster,WV,|02696
+Mountrail,ND,|02697
+Beaver,UT,|02698
+McKenzie,ND,|02699
+Stanley,SD,Pierre|02700
+Loiza,PR,San Juan|02701
+Ponce,PR,Ponce|02702
+Aguada,PR,Aguadilla-Isabela-San Sebastion|02703
+Anasco,PR,Aguadilla-Isabela-San Sebastion|02704
+Caguas,PR,San Juan|02705
+Dorado,PR,San Juan|02706
+Gurabo,PR,San Juan|02707
+Rincon,PR,Aguadilla-Isabela-San Sebastion|02708
+Arecibo,PR,San Juan|02709
+Bayamon,PR,San Juan|02710
+Fajardo,PR,Fajardo|02711
+Humacao,PR,San Juan|02712
+Isabela,PR,Aguadilla-Isabela-San Sebastion|02713
+Vieques,PR,|02714
+Carolina,PR,San Juan|02715
+Guaynabo,PR,San Juan|02716
+Luquillo,PR,Fajardo|02717
+Mayaguez,PR,Mayaguez|02718
+San Juan,PR,San Juan|02719
+Toa Alta,PR,San Juan|02720
+Toa Baja,PR,San Juan|02721
+Aguadilla,PR,Aguadilla-Isabela-San Sebastion|02722
+Cabo Rojo,PR,San German-Cabo Rojo|02723
+Vega Alta,PR,San Juan|02724
+Rio Grande,PR,San Juan|02725
+Saint Thomas,VI,|02726
+Trujillo Alto,PR,San Juan|02727
+Hancock,ME,|02728
+Chesterfield,SC,|02729
+Buffalo,NE,Kearney|02730
+Union,PA,Lewisburg|02731
+Chilton,AL,Birmingham|02732
+Butler,MO,Poplar Bluff|02733
+Rio Arriba,NM,Espanola|02734
+Fremont,WY,Riverton|02735
+Scott,MO,Sikeston|02736
+Greene,PA,|02737
+Logan,WV,|02738
+Brown,SD,Aberdeen|02739
+Madison,NE,Norfolk|02740
+Sioux,IA,|02741
+Randolph,IL,|02742
+Iberville,LA,Baton Rouge|02743
+Marion,IA,Pella|02744
+Franklin,AL,|02745
+Polk,MO,Springfield|02746
+Sunflower,MS,Indianola|02747
+San Miguel,NM,Las Vegas|02748
+Union,SC,Union|02749
+Marlboro,SC,Bennettsville|02750
+Russell,VA,|02751
+Marion,MO,Hannibal|02752
+Barbour,AL,Eufaula|02753
+Codington,SD,Watertown|02754
+Montgomery,KY,Mount Sterling|02755
+Allen,LA,|02756
+Abbeville,SC,|02757
+Washington,MO,St. Louis|02758
+Todd,MN,|02759
+Crawford,MO,|02760
+Boone,WV,Charleston|02761
+Letcher,KY,|02762
+Buchanan,VA,|02763
+Leake,MS,|02764
+Ray,MO,Kansas City|02765
+Saline,MO,Marshall|02766
+Nodaway,MO,Maryville|02767
+McDonald,MO,Fayetteville|02768
+Shelby,IL,|02769
+Perry,IL,|02770
+Grant,LA,Alexandria|02771
+Saint James,LA,|02772
+Vernon,MO,|02773
+Uinta,WY,Evanston|02774
+Stutsman,ND,Jamestown|02775
+Clinton,MO,Kansas City|02776
+Morgan,MO,|02777
+Douglas,IL,|02778
+Attala,MS,|02779
+Lee,SC,|02780
+Winston,MS,|02781
+Hancock,IL,|02782
+Benton,MO,|02783
+Green Lake,WI,|02784
+Perry,MO,|02785
+New Madrid,MO,|02786
+Harrison,KY,|02787
+Edgar,IL,|02788
+Pike,MO,|02789
+Pemiscot,MO,|02790
+Union,IL,|02791
+Cooper,MO,|02792
+Beadle,SD,Huron|02793
+Claiborne,LA,|02794
+Hughes,SD,Pierre|02795
+Bethel,AK,|02796
+Atchison,KS,Atchison|02797
+Dallas,MO,Springfield|02798
+Wayne,IL,|02799
+Piatt,IL,Champaign-Urbana|02800
+Wetzel,WV,|02801
+Dewitt,IL,|02802
+Pike,IL,|02803
+Richland,IL,|02804
+Bamberg,SC,|02805
+Dickenson,VA,|02806
+Dent,MO,|02807
+Roseau,MN,|02808
+West Feliciana,LA,Baton Rouge|02809
+Macon,MO,|02810
+Kossuth,IA,|02811
+Gooding,ID,|02812
+Marquette,WI,|02813
+Winn,LA,|02814
+Gasconade,MO,|02815
+Livingston,MO,|02816
+Calhoun,MS,|02817
+La Salle,LA,|02818
+Washington,IL,|02819
+Greene,MS,|02820
+O Brien,IA,|02821
+Mississippi,MO,|02822
+Bienville,LA,|02823
+Ripley,MO,|02824
+Cedar,MO,|02825
+Osage,MO,Jefferson City|02826
+Breathitt,KY,|02827
+Choctaw,AL,|02828
+Clay,IL,|02829
+Sumter,AL,|02830
+Douglas,MO,|02831
+Wayne,MO,|02832
+Monroe,WV,|02833
+Jackson,KY,|02834
+Glacier,MT,|02835
+Magoffin,KY,|02836
+Goshen,WY,|02837
+Wright,IA,|02838
+Amite,MS,McComb|02839
+Martin,KY,|02840
+DeKalb,MO,St. Joseph|02841
+Linn,MO,|02842
+Union,IA,|02843
+Millard,UT,|02844
+Barton,MO,|02845
+Bollinger,MO,Cape Girardeau|02846
+Montgomery,MO,|02847
+Madison,MO,|02848
+Sussex,VA,Richmond|02849
+Sierra,NM,|02850
+Wabash,IL,|02851
+Zavala,TX,|02852
+Big Horn,WY,|02853
+Lyon,IA,|02854
+Noxubee,MS,|02855
+Ramsey,ND,|02856
+Saint Helena,LA,Baton Rouge|02857
+Lake,SD,|02858
+Walsh,ND,|02859
+Emery,UT,|02860
+Oregon,MO,|02861
+Iron,MO,|02862
+Carroll,MS,Greenwood|02863
+Allendale,SC,|02864
+Catahoula,LA,|02865
+Grundy,MO,|02866
+Lewis,MO,Quincy|02867
+Washington,ID,|02868
+Ralls,MO,Hannibal|02869
+Roberts,SD,|02870
+Howard,MO,Columbia|02871
+Caldwell,LA,|02872
+Wilkinson,MS,|02873
+Saint Clair,MO,|02874
+Richland,MT,|02875
+Ozark,MO,|02876
+Jasper,IL,|02877
+Rock,MN,|02878
+Valdez Cordova,AK,|02879
+Hickory,MO,|02880
+Wayne,NE,|02881
+Howard,IA,|02882
+Nome,AK,|02883
+Montgomery,AR,|02884
+Caldwell,MO,Kansas City|02885
+Clay,WV,Charleston|02886
+Carroll,MO,|02887
+Clarke,IA,|02888
+Monona,IA,|02889
+Grand,UT,|02890
+Maries,MO,|02891
+Charles Mix,SD,|02892
+Red River,LA,|02893
+Harrison,MO,|02894
+Lucas,IA,|02895
+Sitka,AK,|02896
+Graham,NC,|02897
+Cedar,NE,|02898
+Monroe,MO,|02899
+Davis,IA,|02900
+Knox,NE,|02901
+Platte,WY,|02902
+Oscoda,MI,|02903
+Washakie,WY,|02904
+Hamilton,IL,Mount Vernon|02905
+Shannon,MO,|02906
+Daviess,MO,|02907
+Mercer,ND,|02908
+Keith,NE,|02909
+Turner,SD,Sioux Falls|02910
+Alexander,IL,Cape Girardeau|02911
+Custer,SD,|02912
+Traill,ND,|02913
+Lee,KY,|02914
+Dade,MO,|02915
+Elliott,KY,|02916
+Chariton,MO,|02917
+Grant,KS,|02918
+Presidio,TX,|02919
+East Carroll,LA,|02920
+Jefferson,MS,|02921
+Van Buren,IA,|02922
+Schuyler,IL,|02923
+Grant,OR,|02924
+Pembina,ND,|02925
+San Miguel,CO,|02926
+Grant,SD,|02927
+Wolfe,KY,|02928
+Hutchinson,SD,|02929
+Clark,MO,Fort Madison|02930
+Fall River,SD,|02931
+Crook,WY,|02932
+Bon Homme,SD,|02933
+Galax City,VA,|02934
+Southeast Fairbanks,AK,|02935
+Grand Isle,VT,Burlington|02936
+King and Queen,VA,Richmond|02937
+Thurston,NE,|02938
+Brown,IL,|02939
+Gentry,MO,|02940
+Edwards,IL,|02941
+Sullivan,MO,|02942
+Reynolds,MO,|02943
+Wilkin,MN,Wahpeton|02944
+Kearney,NE,Kearney|02945
+Bottineau,ND,|02946
+Wayne,IA,|02947
+Shelby,MO,|02948
+Essex,VT,Berlin|02949
+Carter,MO,|02950
+Pulaski,IL,|02951
+Saguache,CO,|02952
+Stewart,GA,|02953
+Putnam,IL,Ottawa|02954
+Stark,IL,Peoria|02955
+Hamlin,SD,Watertown|02956
+Lander,NV,|02957
+Day,SD,|02958
+Atchison,MO,|02959
+McCook,SD,Sioux Falls|02960
+Gallatin,IL,|02961
+Yukon Koyukuk,AK,|02962
+Ransom,ND,|02963
+Mahnomen,MN,|02964
+Polk,NE,|02965
+McHenry,ND,Minot|02966
+Brule,SD,|02967
+Tensas,LA,|02968
+Lincoln,ID,|02969
+Cook,MN,|02970
+Garfield,UT,|02971
+Kingsbury,SD,|02972
+Putnam,MO,|02973
+Sharkey,MS,|02974
+Holt,MO,|02975
+Hidalgo,NM,|02976
+Mora,NM,|02977
+Dillingham,AK,|02978
+Scotland,MO,|02979
+Hot Springs,WY,|02980
+Martin,TX,|02981
+Owsley,KY,|02982
+Marshall,SD,|02983
+Union,NM,|02984
+Schuyler,MO,Kirksville|02985
+Tyrrell,NC,|02986
+Custer,ID,|02987
+Deuel,SD,|02988
+Hardin,IL,|02989
+Custer,CO,|02990
+Menominee,WI,|02991
+Lamoure,ND,|02992
+Hardeman,TX,|02993
+Knox,MO,|02994
+Edmunds,SD,Aberdeen|02995
+Mason,TX,|02996
+Cavalier,ND,|02997
+Adams,ID,|02998
+Norton City,VA,|02999
+Sargent,ND,|03000
+Petersburg,AK,|03001
+Baca,CO,|03002
+Mercer,MO,|03003
+Lyman,SD,|03004
+Catron,NM,|03005
+Knox,TX,|03006
+Crockett,TX,|03007
+Clark,SD,|03008
+Donley,TX,|03009
+Dunn,ND,|03010
+Hudspeth,TX,|03011
+Hand,SD,|03012
+Harlan,NE,|03013
+Sheridan,MT,|03014
+Hanson,SD,Mitchell|03015
+Coke,TX,|03016
+Real,TX,|03017
+Clay,GA,|03018
+Nelson,ND,|03019
+Perkins,SD,|03020
+Hitchcock,NE,|03021
+Butte,ID,|03022
+Webster,GA,|03023
+Wayne,UT,|03024
+Frontier,NE,|03025
+Aurora,SD,|03026
+Haines,AK,|03027
+Niobrara,WY,|03028
+Renville,ND,Minot|03029
+Kidder,ND,|03030
+Griggs,ND,|03031
+Culberson,TX,|03032
+Sedgwick,CO,|03033
+Wrangell,AK,|03034
+Sanborn,SD,|03035
+Jeff Davis,TX,|03036
+Robertson,KY,|03037
+Garfield,WA,|03038
+Rich,UT,|03039
+Menard,TX,|03040
+Stanton,KS,|03041
+Worth,MO,|03042
+Keweenaw,MI,Houghton|03043
+Hoonah-Angoon,AK,|03044
+Judith Basin,MT,|03045
+Jerauld,SD,|03046
+Dolores,CO,|03047
+Garden,NE,|03048
+Oldham,TX,|03049
+De Baca,NM,|03050
+Edwards,TX,|03051
+Eureka,NV,Elko|03052
+Burke,ND,|03053
+Meagher,MT,|03054
+Oliver,ND,|03055
+Denali,AK,|03056
+Sherman,OR,|03057
+Powder River,MT,|03058
+Taliaferro,GA,|03059
+Golden Valley,ND,|03060
+Lake and Peninsula,AK,|03061
+Piute,UT,|03062
+Jackson,CO,|03063
+Sully,SD,|03064
+Sheridan,ND,|03065
+Sioux,NE,|03066
+Camas,ID,|03067
+Bristol Bay,AK,|03068
+Terrell,TX,|03069
+Golden Valley,MT,|03070
+Hinsdale,CO,|03071
+Esmeralda,NV,|03072
+Mineral,CO,|03073
+San Juan,CO,|03074
+Harding,NM,|03075
+Moca,PR,Aguadilla-Isabela-San Sebastion|03076
+Camuy,PR,San Juan|03077
+Cayey,PR,San Juan|03078
+Ceiba,PR,Fajardo|03079
+Cidra,PR,San Juan|03080
+Coamo,PR,Coamo|03081
+Lajas,PR,San German-Cabo Rojo|03082
+Lares,PR,Aguadilla-Isabela-San Sebastion|03083
+Yauco,PR,Yauco|03084
+Arroyo,PR,Guayama|03085
+Catano,PR,San Juan|03086
+Ciales,PR,San Juan|03087
+Jayuya,PR,Jayuya|03088
+Juncos,PR,San Juan|03089
+Manati,PR,San Juan|03090
+Utuado,PR,Utuado|03091
+Comerio,PR,San Juan|03092
+Corozal,PR,San Juan|03093
+Culebra,PR,|03094
+Guanica,PR,Yauco|03095
+Guayama,PR,Guayama|03096
+Hatillo,PR,San Juan|03097
+Maunabo,PR,San Juan|03098
+Morovis,PR,San Juan|03099
+Naguabo,PR,San Juan|03100
+Salinas,PR,|03101
+Yabucoa,PR,San Juan|03102
+Aibonito,PR,San Juan|03103
+Orocovis,PR,San Juan|03104
+Patillas,PR,Guayama|03105
+Villalba,PR,Ponce|03106
+Canovanas,PR,San Juan|03107
+Naranjito,PR,San Juan|03108
+Vega Baja,PR,San Juan|03109
+Juana Diaz,PR,Ponce|03110
+Las Marias,PR,|03111
+Saint John,VI,|03112
+San German,PR,San German-Cabo Rojo|03113
+Barceloneta,PR,San Juan|03114
+Hormigueros,PR,Mayaguez|03115
+Las Piedras,PR,San Juan|03116
+Saint Croix,VI,|03117
+San Lorenzo,PR,San Juan|03118
+Aguas Buenas,PR,San Juan|03119
+Barranquitas,PR,San Juan|03120
+Quebradillas,PR,San Juan|03121
+Santa Isabel,PR,Santa Isabel|03122
+Sabana Grande,PR,San German-Cabo Rojo|03123
+San Sebastian,PR,Aguadilla-Isabela-San Sebastion|03124
+Prince of Wales-Hyder,AK,|03125
+Walworth,SD,|03126
+Emmons,ND,|03127
+Schleicher,TX,|03128
+Baker,GA,Albany|03129
+Dickens,TX,|03130
+Miner,SD,|03131
+Eddy,ND,|03132
+Briscoe,TX,|03133
+Motley,TX,|03134
+Logan,NE,North Platte|03135
+Florida,PR,San Juan|03136
+Adjuntas,PR,Adjuntas|03137
+Penuelas,PR,Yauco|03138
+Perkins,NE,|03139
+Greeley,NE,|03140
+Garfield,NE,|03141
+Dundy,NE,|03142
+Rock,NE,|03143
+Kiowa,CO,|03144
+Skagway,AK,|03145
+Hayes,NE,|03146
+Keya Paha,NE,|03147
+Wheeler,NE,|03148
+Hooker,NE,|03149
+Banner,NE,Scottsbluff|03150
+Thomas,NE,|03151
+Grant,NE,|03152
+McPherson,NE,North Platte|03153
